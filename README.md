@@ -27,4 +27,4 @@ Here we deal with the methods of **[plotting rarefaction curves](03_Alpha_Divers
 One of the most straightforward methods of visualising beta diversity on the base of Bray-Curtis_Distances is an NMDS plot, the script is provided **[here](04_Beta_Diversity/NMDS.md)**. But we also perform and plot a **[Principle Coordinate Analysis](04_Beta_Diversity/PCoA.md)** to investigate differences between the foliar communites of different sampling periods, aswell as a **[Redundancy Analysis](04_Beta_Diversity/RDA.md)**.
 
 ### 05 Shared OTUs between Sampling Periods
-This section deals with the **[visualisation of shared OTUs](05_Shared_OTUs/Visualise_shared_OTUs.md)** of all investigated sampling periods.
+This section deals with the **[visualisation of shared OTUs](05_Shared_OTUs/SharedOTUs.md)** of all investigated sampling periods.

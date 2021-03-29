@@ -27,7 +27,7 @@ OTU_Table = OTU_Table[,18:ncol(OTU_Table)]
 Calculate Alpha Diversity Indices
 ---------------------------------
 
-To calculate the diversity indices, simply load the table and caclulate the species richness per microhabitat and sampling period, then convert it into a dataframe and add all other diversity `indices` - in this case: The Simpson index, Shannon Index and eveness. Finally add the metadata and group.
+To calculate the diversity indices, simply load the table and calculate the species richness per microhabitat and sampling period, then convert it into a dataframe and add all other diversity `indices` - in this case: The Simpson index, Shannon Index and eveness. Finally add the metadata and group.
 
 ``` r
 richness = specnumber(OTU_Table)

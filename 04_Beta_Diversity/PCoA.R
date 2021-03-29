@@ -4,7 +4,7 @@ library(vegan)
 library(ggplot2)
 library(plyr)
 library(funrar)# for make relative function
-
+library(ggpubr)#for ggarrange
 
 
 ######################################## All microhabitats(290) 7633  ######################
@@ -102,10 +102,13 @@ dim(pcoa)  # 290 oder 25  3
 #pcoaF19<-as.data.frame(pcoa[c(82:162),])
 
 ####### all microhabitats 7633 only 290 samples
-pcoaH17<-as.data.frame(pcoa[c(211:290),])
+# group by sampling period
 pcoaF18<-as.data.frame(pcoa[c(1:65),])
-pcoaH18<-as.data.frame(pcoa[c(142:210),])
 pcoaF19<-as.data.frame(pcoa[c(66:141),])
+pcoaH17<-as.data.frame(pcoa[c(142:221),])
+pcoaH18<-as.data.frame(pcoa[c(222:290),])
+
+
 
 ###leaves 
 #pcoaH17<-as.data.frame(pcoa[c(28:36),])
@@ -114,19 +117,20 @@ pcoaF19<-as.data.frame(pcoa[c(66:141),])
 #pcoaF19<-as.data.frame(pcoa[c(10:18),])
 
 ###leaves 7633
-pcoaH17<-as.data.frame(pcoa[c(11:19),])
 pcoaF18<-as.data.frame(pcoa[c(1:5),])
-pcoaH18<-as.data.frame(pcoa[c(20:25),])
 pcoaF19<-as.data.frame(pcoa[c(6:10),])
+pcoaH17<-as.data.frame(pcoa[c(11:19),])
+pcoaH18<-as.data.frame(pcoa[c(20:25),])
 
 # create a column of names called "season" so we can select them
 #later and add it to the dataframe
 
 # all microhabitats
-pcoaH17$Season=rep("Autumn 2017",nrow(pcoaH17))
+# create a column called "Season"
 pcoaF18$Season=rep("Spring 2018",nrow(pcoaF18))
-pcoaH18$Season=rep("Autumn 2018",nrow(pcoaH18))
 pcoaF19$Season=rep("Spring 2019",nrow(pcoaF19))
+pcoaH17$Season=rep("Autumn 2017",nrow(pcoaH17))
+pcoaH18$Season=rep("Autumn 2018",nrow(pcoaH18))
 
 
 pcoabyseason<-rbind(pcoaH17, pcoaF18, pcoaH18, pcoaF19)

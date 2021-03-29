@@ -1,0 +1,201 @@
+Principle Coordinates Analysis
+================
+
+For Analysis of beta diversity across communities detected on fresh leaves a Principle Coordinates Analysis was performed. The PCoA is a method to explore and to visualize similarities or dissimilarities of data. It starts with a similarity matrix or dissimilarity matrix (= distance matrix) and assigns for each item a location in a low-dimensional space.
+
+Load data
+---------
+
+``` r
+rm(list = ls()) 
+
+library(vegan)
+library(ggplot2)
+library(plyr)
+library(funrar) 
+library(ggpubr)
+
+OTU_Table = as.data.frame(read.csv2("../00_Data/05_Cercozoa_Seasonal_OTU_Table_min-freq-7633_transposed_withMetadata.csv",header = T))
+
+
+species = OTU_Table[,18:ncol(OTU_Table)]
+species.mat = as.matrix(species)
+species.mat = make_relative(species.mat)
+SampleMetadata = as.data.frame(OTU_Table[,1:17])
+
+rownames(species.mat) <- OTU_Table[,1]
+```
+
+Data Preparation
+----------------
+
+First step is to calculate a distance matrix. The most popular function to perform a classical scaling is *cmdscale* (which comes with the default distribution of R). Here we use Bray-Curtis distance metric. Next we have to check the caculated eigenvalues and interpret the observed variation. Finally we only have to group our data by "sampling period" for visualization.
+
+``` r
+# calculate Bray-Curtis distances
+pcoa <- cmdscale(vegdist(species.mat, "bray"), eig=TRUE, k=2) 
+
+# explained variation by axis 1 and axis 2 of PCoA
+explainedvar1<-round(pcoa$eig[1]/sum(pcoa$eig),2)*100
+explainedvar2<-round(pcoa$eig[2]/sum(pcoa$eig),2)*100
+
+#explainedvar1 #  the first x-axis explains 25% of variation 
+#explainedvar2 # the second y-axis explains 11% of variation 
+
+
+pcoa<-as.data.frame(cbind(pcoa$points, pcoa$eig)) # keep only the first 3 columns as data frame
+#dim(pcoa)
+
+# group by sampling period
+pcoaF18<-as.data.frame(pcoa[c(1:65),])
+pcoaF19<-as.data.frame(pcoa[c(66:141),])
+pcoaH17<-as.data.frame(pcoa[c(142:221),])
+pcoaH18<-as.data.frame(pcoa[c(222:290),])
+
+
+# create a column called "Season"
+pcoaF18$Season=rep("Spring 2018",nrow(pcoaF18))
+pcoaF19$Season=rep("Spring 2019",nrow(pcoaF19))
+pcoaH17$Season=rep("Autumn 2017",nrow(pcoaH17))
+pcoaH18$Season=rep("Autumn 2018",nrow(pcoaH18))
+
+pcoabyseason<-rbind(pcoaH17, pcoaF18, pcoaH18, pcoaF19)
+
+#  define function and calculate the points for the PCoA by applying the function to visualize data
+find_hull.pcoa <- function(df) df[chull(df$V1, df$V2), ]
+
+hulls.pcoaSe <- ddply(pcoabyseason,"Season", find_hull.pcoa)
+```
+
+ggplot
+------
+
+``` r
+PCOA_All <- ggplot()+
+  geom_point(data=pcoabyseason, aes(x=V1,y=V2, col=Season,
+                                    shape=Season), size=3)+
+  geom_polygon(data=hulls.pcoaSe,aes(x=V1, y=V2, group = Season, fill = Season),alpha=0.2)+
+  scale_shape_manual(values=c(16,16,17,17))+
+  theme_minimal()+
+  scale_fill_manual(values = c("#094d35","#660033","#B5A642","#1c9099"), 
+                    limits = c("Autumn 2017","Autumn 2018","Spring 2018","Spring 2019")) +  
+  scale_color_manual(values=c("#094d35","#660033","#B5A642","#1c9099"))+
+  xlab('PCoA1')+
+  ylab('PCoA2')+
+  theme(axis.text=element_text(size=14), 
+        axis.title=element_text(size=16, face = "bold"), 
+        legend.text = element_text(size = 16), 
+        legend.title = element_blank(),
+        legend.position = "bottom", 
+        legend.direction = "horizontal", 
+        plot.title = element_text(size = 16, face = "bold", hjust = 0.5))+
+  labs(y= "PCoA2 - 11%", x = "PCoA1 - 25%")
+        
+PCOA_All
+```
+
+![](PCoA_files/figure-markdown_github/Plot%20All%20Samples-1.png) Repeat every step for fresh leaves only.
+
+``` r
+# repeat for leaves only
+OTU_Table_Leaves <- OTU_Table[ which(OTU_Table$Microhabitat == 'Fresh Leaves'),]
+
+
+species.leaves <- OTU_Table_Leaves[,18:ncol(OTU_Table)]
+species.leaves.mat = as.matrix(species.leaves)
+species.leaves.mat = make_relative(species.leaves.mat)
+#dim(species.leaves)
+ 
+rownames(species.leaves.mat) <- OTU_Table_Leaves[,1]
+ 
+
+#calculate PCoA 
+pcoa <- cmdscale(vegdist(species.leaves.mat, "bray"), eig=TRUE, k=2) 
+
+
+# explained variation by axis 1 and axis 2 of PCoA
+explainedvar1<-round(pcoa$eig[1]/sum(pcoa$eig),2)*100
+explainedvar2<-round(pcoa$eig[2]/sum(pcoa$eig),2)*100
+
+#explainedvar1 #  the first x-axis explains 21% of variation 
+#explainedvar2 # the second y-axis explains 17% of variation 
+
+pcoa<-as.data.frame(cbind(pcoa$points, pcoa$eig)) # keep only the first 3 columns as data frame
+#dim(pcoa)
+
+# group by sampling period
+pcoaF18<-as.data.frame(pcoa[c(1:5),])
+pcoaF19<-as.data.frame(pcoa[c(6:10),])
+pcoaH17<-as.data.frame(pcoa[c(11:19),])
+pcoaH18<-as.data.frame(pcoa[c(20:25),])
+
+
+# create a column called "Season"
+pcoaF18$Season=rep("Spring 2018",nrow(pcoaF18))
+pcoaF19$Season=rep("Spring 2019",nrow(pcoaF19))
+pcoaH17$Season=rep("Autumn 2017",nrow(pcoaH17))
+pcoaH18$Season=rep("Autumn 2018",nrow(pcoaH18))
+
+pcoabyseason<-rbind(pcoaH17, pcoaF18, pcoaH18, pcoaF19)
+
+# calculate the points for the PCoA by applying the function to visualize data
+find_hull.pcoa <- function(df) df[chull(df$V1, df$V2), ]
+
+hulls.pcoaSe <- ddply(pcoabyseason,"Season", find_hull.pcoa)
+```
+
+``` r
+PCOA_Leaves <- ggplot()+
+  geom_point(data=pcoabyseason, aes(x=V1,y=V2, col=Season,
+                                    shape=Season), size=3)+
+  geom_polygon(data=hulls.pcoaSe,aes(x=V1, y=V2, group = Season, fill = Season),alpha=0.2)+
+  scale_shape_manual(values=c(16,16,17,17))+
+  theme_minimal()+
+  scale_fill_manual(values = c("#094d35","#660033","#B5A642","#1c9099"), 
+                    limits = c("Autumn 2017","Autumn 2018","Spring 2018","Spring 2019")) +  
+  scale_color_manual(values=c("#094d35","#660033","#B5A642","#1c9099"))+
+  xlab('PCoA1')+
+  ylab('PCoA2')+
+  theme(axis.text=element_text(size=14), 
+        axis.title=element_text(size=16, face = "bold"), 
+        legend.text = element_text(size = 16), 
+      
+        legend.title = element_blank(),
+        legend.position = "bottom", 
+        legend.direction = "horizontal", 
+        plot.title = element_text(size = 16, face = "bold", hjust = 0.5))+
+  labs(y= "PCoA2 - 17%", x = "PCoA1 - 21%")
+        
+PCOA_Leaves
+```
+
+![](PCoA_files/figure-markdown_github/Plot%20Leaves%20only-1.png)
+
+``` r
+combi = ggarrange(PCOA_All, PCOA_Leaves,
+                  labels = c("A", "B"), 
+                  ncol = 2, nrow = 1, font.label = list(size = 16, color = "black"),
+                  common.legend = T, legend = "bottom", align = "h")+
+        theme(plot.margin = margin(1,1,1,1, "cm")) 
+
+combi
+```
+
+![](PCoA_files/figure-markdown_github/combine%20Plots-1.png)
+
+``` r
+#save plot
+
+#ggsave("PCA_300_336x168.jpeg", plot = combi, 
+#       device = "jpeg", dpi = 300, width = 336, height = 168, 
+#       units = "mm")
+#ggsave("PCA_600_336x168.pdf", plot = combi, 
+#       device = "pdf", dpi = 600, width = 336, height = 168, 
+#       units = "mm")
+#ggsave("PCA_600_336x168.tif", plot = combi, 
+#       device = "tiff", dpi = 600, width = 336, height = 168, 
+#       units = "mm")
+#ggsave("PCA_600_336x168.png", plot = combi, 
+#       device = "png", dpi = 600, width = 336, height = 168, 
+#       units = "mm")
+```

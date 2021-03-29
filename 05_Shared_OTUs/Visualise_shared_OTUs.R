@@ -17,7 +17,6 @@ OTU_Table = as.data.frame(read.csv2("AllSeason_Cerc_En_Final_OTU_R_7633_forShare
 
 SampleMetadata = OTU_Table[,1:7]# habe die metadaten noch um season+Jahr erweitert
 Year = SampleMetadata$Year
-Year = SampleMetadata$Year
 OTU_Table = OTU_Table[,8:ncol(OTU_Table)]
 
 ####################
