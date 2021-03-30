@@ -75,7 +75,7 @@ species_mat_aggregated_S18 = species_mat_aggregated_S18[,-1]
 ```
 
 Calculate rarefaction curves for every sampling period with the *iNEXT* function
-================================================================================
+--------------------------------------------------------------------------------
 
 ``` r
 # Spring 2018
