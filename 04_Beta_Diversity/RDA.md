@@ -15,12 +15,9 @@ library(RColorBrewer)
 library(funrar)
 library(ggpubr)
 
-OTU_Table = as.data.frame(read.csv2("../00_Data/05_Cercozoa_Seasonal_OTU_Table_min-freq-7633_transposed_withMetadata.csv",header = T,fileEncoding="UTF-8-BOM"))
+OTU_Table = as.data.frame(read.csv2("../00_Data/05_Cercozoa_Seasonal_OTU_Table_min-freq-7633_transposed_withMetadata.csv",header = T))
 
 SampleMetadata = OTU_Table[,1:17]
-rownames(OTU_Table) = SampleMetadata$SampleID
-rownames(SampleMetadata) = SampleMetadata$SampleID
-
 species = OTU_Table[,18:ncol(OTU_Table)]
 species_mat = as.matrix(species)
 species_mat = make_relative(species_mat)
