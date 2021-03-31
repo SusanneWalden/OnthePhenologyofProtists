@@ -1,0 +1,784 @@
+OTU_Number;Order;Family;Genus;Species;ReferenceID;PercentID;Nutrition;Morphology
+Otu001;Glissomonadida;Allapsidae;Allapsidae_X;Allapsidae_X+sp;EU709273;86,14;bacterivore;naked flagellate
+Otu002;Glissomonadida;Allapsidae;Allapsidae_X;Allapsidae_X+sp;EU709273;97,85;bacterivore;naked flagellate
+Otu003;Glissomonadida;Sandonidae;Sandonidae_X;Sandonidae_X+sp;KC672587;99,38;bacterivore;naked flagellate
+Otu004;Euglyphida;Euglyphidae;Assulina;Assulina+muscorum;AJ418791;98,76;omnivore;testate cell silica
+Otu005;Glissomonadida;Allapsidae;Allapsidae_X;Allapsidae_X+sp;EU709273;96;bacterivore;naked flagellate
+Otu006;Glissomonadida;Sandonidae;Sandona;Sandona+aporians;AY965867;98,45;bacterivore;naked flagellate
+Otu007;Glissomonadida;Sandonidae;Sandonidae_X;Sandonidae_X+sp;KC672587;96,28;bacterivore;naked flagellate
+Otu008;Glissomonadida;Sandonidae;Sandonidae_X;Sandonidae_X+sp;AM114804;100;bacterivore;naked flagellate
+Otu009;Cercomonadida;Cercomonadidae;Cercomonas;Cercomonas+plasmodialis;AF411268;99,69;omnivore;naked amoeboflagellate
+Otu010;Glissomonadida;Sandonidae;Sandonidae_X;Sandonidae_X+sp;AM114804;92,07;bacterivore;naked flagellate
+Otu011;Cryomonadida;Rhogostoma-lineage;Rhogostoma-lineage_X;Rhogostoma-lineage_X+sp;EF023810;96,9;omnivore;testate cell organic
+Otu012;Cryomonadida;Rhogostoma-lineage;Rhogostoma;Rhogostoma+schuessleri;HQ121430;96,59;omnivore;testate cell organic
+Otu013;Euglyphida;Euglyphidae;Euglypha;Euglypha+tuberculata;AJ418787;95,05;omnivore;testate cell silica
+Otu014;Cercomonadida;Paracercomonadidae;Paracercomonas;Paracercomonas+sp;FJ790726;89,06;bacterivore;naked amoeboflagellate
+Otu015;Glissomonadida;Sandonidae;Sandonidae_X;Sandonidae_X+sp;FJ592291;96,58;bacterivore;naked flagellate
+Otu016;Spongomonadida;Spongomonadidae;Spongomonadidae_X;Spongomonadidae_X+sp;AF372740;97,51;bacterivore;naked flagellate
+Otu017;Spongomonadida;Spongomonadidae;Spongomonadidae_X;Spongomonadidae_X+sp;AF372740;98,44;bacterivore;naked flagellate
+Otu018;Glissomonadida;Allapsidae;Allapsidae_X;Allapsidae_X+sp;EU709266;99,08;bacterivore;naked flagellate
+Otu019;Cercomonadida;Paracercomonadidae;Paracercomonas;Paracercomonas+virgaria;AY884340;92,79;bacterivore;naked amoeboflagellate
+Otu020;Cryomonadida;Rhogostoma-lineage;Rhogostoma-lineage_X;Rhogostoma-lineage_X+sp;EF023810;97,2;omnivore;testate cell organic
+Otu021;Euglyphida;Trinematidae;Trinematidae_X;Trinematidae_X+sp;EF024880;95,06;omnivore;testate cell silica
+Otu022;Glissomonadida;Allapsidae;Allapsidae_X;Allapsidae_X+sp;KC306595;92,96;bacterivore;naked flagellate
+Otu023;Glissomonadida;Sandonidae;Bodomorpha;Bodomorpha+sp;HM536172;97,52;bacterivore;naked flagellate
+Otu024;Glissomonadida;Sandonidae;Sandonidae_X;Sandonidae_X+sp;HQ121433;93,56;bacterivore;naked flagellate
+Otu025;Vampyrellida;Leptophryidae;Platyreta;Platyreta+germanica;AY941201;97,51;eukaryvore;naked amoeba
+Otu026;Glissomonadida;Bodomorphidae;Bodomorpha;Bodomorpha+sp;JN054696;89,76;bacterivore;naked flagellate
+Otu027;Glissomonadida;Allapsidae;Allapsidae_X;Allapsidae_X+sp;KC306595;93,87;bacterivore;naked flagellate
+Otu028;Glissomonadida;Allapsidae;Allapsidae_X;Allapsidae_X+sp;AB695526;100;bacterivore;naked flagellate
+Otu029;Spongomonadida;Spongomonadidae;Spongomonas;Spongomonas+minima;AF411281;98,76;bacterivore;naked flagellate
+Otu030;Marimonadida;Marimonadida_X;Marimonadida_XX;Marimonadida_XX+sp;HQ864984;93,27;undetermined;naked flagellate
+Otu031;Glissomonadida;Allapsidae;Allapsidae_X;Allapsidae_X+sp;EU709273;95,69;bacterivore;naked flagellate
+Otu032;Glissomonadida;Sandonidae;Sandonidae_X;Sandonidae_X+sp;KC672568;98,49;bacterivore;naked flagellate
+Otu033;Cryomonadida;Protaspa-lineage;Protaspa-lineage_X;Protaspa-lineage_X+sp;AF372764;92,38;eukaryvore;testate cell organic
+Otu034;Euglyphida;Euglyphidae;Euglypha;Euglypha+penardi;EF456753;95,99;omnivore;testate cell silica
+Otu035;Glissomonadida;Allapsidae;Allapsidae_X;Allapsidae_X+sp;EU709273;89,73;bacterivore;naked flagellate
+Otu036;Glissomonadida;Glissomonadida_X;Glissomonadida_XX;Glissomonadida_XX+sp;KC672643;90,58;undetermined;undetermined
+Otu037;Glissomonadida;Glissomonadida_X;Glissomonadida_XX;Glissomonadida_XX+sp;AB695519;100;undetermined;undetermined
+Otu038;Cryomonadida;Rhogostoma-lineage;Rhogostoma;Rhogostoma+schuessleri;HQ121430;98,45;omnivore;testate cell organic
+Otu039;Cryomonadida;Rhogostoma-lineage;Capsellina;Capsellina+sp;AY082998;99,38;omnivore;testate cell organic
+Otu040;Glissomonadida;Allapsidae;Allapsidae_X;Allapsidae_X+sp;EU709273;95,11;bacterivore;naked flagellate
+Otu041;Glissomonadida;Sandonidae;Sandonidae_X;Sandonidae_X+sp;HQ918179;99,05;bacterivore;naked flagellate
+Otu042;Glissomonadida;Sandonidae;Sandonidae_X;Sandonidae_X+sp;HQ918179;94,29;bacterivore;naked flagellate
+Otu043;Cercomonadida;Cercomonadidae;Cercomonas;Cercomonas+celer;FJ790710;98,76;omnivore;naked amoeboflagellate
+Otu044;Glissomonadida;Allapsidae;Allapsidae_X;Allapsidae_X+sp;EU709273;93,64;bacterivore;naked flagellate
+Otu045;Glissomonadida;Allapsidae;Allapsidae_X;Allapsidae_X+sp;EU709273;89,88;bacterivore;naked flagellate
+Otu046;Glissomonadida;Sandonidae;Sandona;Sandona+afra;EU709162;99,07;bacterivore;naked flagellate
+Otu047;unassigned Cercozoa;Cercozoa_XXX;Cercozoa_XXXX;Cercozoa_XXXX+sp;AY620297;98,47;undetermined;undetermined
+Otu048;Glissomonadida;Allapsidae;Allapsidae_X;Allapsidae_X+sp;EU709273;91,82;bacterivore;naked flagellate
+Otu049;Vampyrellida;Leptophryidae;Kumanoa;Kumanoa+intorta;KC511080;93,15;eukaryvore;naked amoeba
+Otu050;Cercomonadida;Cercomonadidae;Cercomonas;Cercomonas+sp;HM536148;98,77;omnivore;naked amoeboflagellate
+Otu051;Euglyphida;Trinematidae;Trinematidae_X;Trinematidae_X+sp;EF024880;96,91;omnivore;testate cell silica
+Otu052;Glissomonadida;Sandonidae;Flectomonas;Flectomonas+ekelundi;HM536169;99,69;bacterivore;naked flagellate
+Otu053;Glissomonadida;Allapsidae;Teretomonas;Teretomonas+rotunda;EU709247;98,76;bacterivore;naked flagellate
+Otu054;Glissomonadida;Allapsidae;Allapsidae_X;Allapsidae_X+sp;EU709273;94,46;bacterivore;naked flagellate
+Otu055;Glissomonadida;Allapsidae;Allapsidae_X;Allapsidae_X+sp;AB695472;93,48;bacterivore;naked flagellate
+Otu056;Glissomonadida;Sandonidae;Sandonidae_X;Sandonidae_X+sp;FJ592291;97,52;bacterivore;naked flagellate
+Otu057;Glissomonadida;Sandonidae;Sandonidae_X;Sandonidae_X+sp;AM114804;96,9;bacterivore;naked flagellate
+Otu058;Cryomonadida;Rhogostoma-lineage;Rhogostoma-lineage_X;Rhogostoma-lineage_X+sp;EF023810;97,52;omnivore;testate cell organic
+Otu059;Glissomonadida;Sandonidae;Sandonidae_X;Sandonidae_X+sp;AM114804;97,21;bacterivore;naked flagellate
+Otu060;Cercomonadida;Cercomonadidae;Eocercomonas;Eocercomonas+sp;HM536152;100;omnivore;naked amoeboflagellate
+Otu061;Euglyphida;Euglyphida_X;Euglyphida_XX;Euglyphida_XX+sp;AY620296;88,49;undetermined;testate cell silica
+Otu062;Cercomonadida;Cercomonadidae;Cercomonas;Cercomonas+longicauda;DQ442884;99,07;omnivore;naked amoeboflagellate
+Otu063;Euglyphida;Trinematidae;Trinematidae_X;Trinematidae_X+sp;EF024880;96,6;omnivore;testate cell silica
+Otu064;Cercomonadida;Cercomonadidae;Cercomonas;Cercomonas+sp;AY884333;99,39;omnivore;naked amoeboflagellate
+Otu065;Cryomonadida;Rhogostoma-lineage;Rhogostoma-lineage_X;Rhogostoma-lineage_X+sp;EF023810;97,83;omnivore;testate cell organic
+Otu066;Cryomonadida;Rhogostoma-lineage;Rhogostoma-lineage_X;Rhogostoma-lineage_X+sp;EF023812;100;omnivore;testate cell organic
+Otu067;Glissomonadida;Allapsidae;Allapsidae_X;Allapsidae_X+sp;EU709273;94,17;bacterivore;naked flagellate
+Otu068;Glissomonadida;Allapsidae;Allapsidae_X;Allapsidae_X+sp;EU709273;96,31;bacterivore;naked flagellate
+Otu069;Cercomonadida;Cercomonadidae;Cercomonas;Cercomonas+sp;FJ790753;96,31;omnivore;naked amoeboflagellate
+Otu070;Limnofilida;Limnofilidae;Limnofila;Limnofila+longa;EU567254;89,97;bacterivore;naked amoeboflagellate
+Otu071;Glissomonadida;Sandonidae;Sandonidae_X;Sandonidae_X+sp;EU709134;96,89;bacterivore;naked flagellate
+Otu072;Glissomonadida;Allapsidae;Allapsidae_X;Allapsidae_X+sp;EU709273;94,89;bacterivore;naked flagellate
+Otu073;Glissomonadida;Glissomonadida_X;Glissomonadida_XX;Glissomonadida_XX+sp;KC672643;89,91;undetermined;undetermined
+Otu074;Glissomonadida;Sandonidae;Sandona;Sandona+sp;AM114805;99,38;bacterivore;naked flagellate
+Otu075;unassigned Imbricatea;Novel-clade-2;Novel-clade-2_X;Novel-clade-2_X+sp;AY620329;91,08;undetermined;undetermined
+Otu076;Glissomonadida;Allapsidae;Allapsidae_X;Allapsidae_X+sp;EU709273;94,46;bacterivore;naked flagellate
+Otu077;Glissomonadida;Sandonidae;Sandonidae_X;Sandonidae_X+sp;FJ592291;96,58;bacterivore;naked flagellate
+Otu078;Euglyphida;Euglyphidae;Euglypha;Euglypha+penardi;EF456753;89,54;omnivore;testate cell silica
+Otu079;Glissomonadida;Allapsidae;Allapsidae_X;Allapsidae_X+sp;EU709273;96,63;bacterivore;naked flagellate
+Otu080;Glissomonadida;Sandonidae;Sandonidae_X;Sandonidae_X+sp;FJ592291;96,9;bacterivore;naked flagellate
+Otu081;Cercomonadida;Cercomonadidae;Eocercomonas;Eocercomonas+sp;HM536152;90,87;omnivore;naked amoeboflagellate
+Otu082;Glissomonadida;Proleptomonadidae;Proleptomonas;Proleptomonas+faecicola;AF411275;94,41;bacterivore;naked flagellate
+Otu083;Novel-clade-12;NC12B-lineage;NC12B-lineage_X;NC12B-lineage_X+sp;FJ153639;96,17;undetermined;undetermined
+Otu084;Limnofilida;Limnofilidae;Limnofila;Limnofila+anglica;EU567255;96,64;bacterivore;naked amoeboflagellate
+Otu085;Glissomonadida;Sandonidae;Sandona;Sandona+sp;EU709136;100;bacterivore;naked flagellate
+Otu086;Glissomonadida;Allapsidae;Allapsidae_X;Allapsidae_X+sp;EU709273;92,15;bacterivore;naked flagellate
+Otu087;Glissomonadida;Allapsidae;Allapsidae_X;Allapsidae_X+sp;EU709273;96,62;bacterivore;naked flagellate
+Otu088;Euglyphida;Euglyphidae;Assulina;Assulina+muscorum;AJ418791;99,03;omnivore;testate cell silica
+Otu089;Glissomonadida;Sandonidae;Sandonidae_X;Sandonidae_X+sp;FJ592291;95,98;bacterivore;naked flagellate
+Otu090;Glissomonadida;Sandonidae;Sandonidae_X;Sandonidae_X+sp;EU091844;97,85;bacterivore;naked flagellate
+Otu091;Glissomonadida;Allapsidae;Allapsidae_X;Allapsidae_X+sp;EU709273;94,48;bacterivore;naked flagellate
+Otu092;Glissomonadida;Allapsidae;Allapsidae_X;Allapsidae_X+sp;EU709273;96;bacterivore;naked flagellate
+Otu093;Glissomonadida;Allapsidae;Group-Te;Group_Te+sp;EU709246;90,24;undetermined;undetermined
+Otu094;Glissomonadida;Allapsidae;Allapsidae_X;Allapsidae_X+sp;EU709273;92,33;bacterivore;naked flagellate
+Otu095;Glissomonadida;Allapsidae;Allapsidae_X;Allapsidae_X+sp;EU709266;85,07;bacterivore;naked flagellate
+Otu096;Cercomonadida;Paracercomonadidae;Nucleocercomonas;Nucleocercomonas+praelonga;HM536166;91,64;bacterivore;naked amoeboflagellate
+Otu097;Glissomonadida;Allapsidae;Allapsidae_X;Allapsidae_X+sp;KC306595;92,96;bacterivore;naked flagellate
+Otu098;Limnofilida;Limnofilidae;Limnofilidae_X;Limnofilidae_X+sp;DQ243993;98,78;bacterivore;naked amoeboflagellate
+Otu099;Glissomonadida;Sandonidae;Sandonidae_X;Sandonidae_X+sp;HQ918179;96,89;bacterivore;naked flagellate
+Otu100;Glissomonadida;Glissomonadida_X;Glissomonadida_XX;Glissomonadida_XX+sp;KC672643;87,95;undetermined;undetermined
+Otu101;Glissomonadida;Sandonidae;Sandonidae_X;Sandonidae_X+sp;EU709219;99,69;bacterivore;naked flagellate
+Otu102;Glissomonadida;Glissomonadida_X;Glissomonadida_XX;Glissomonadida_XX+sp;JN635482;92,05;undetermined;undetermined
+Otu103;Cryomonadida;Rhogostoma-lineage;Rhogostoma-lineage_X;Rhogostoma-lineage_X+sp;EF023812;96,89;omnivore;testate cell organic
+Otu104;Glissomonadida;Allapsidae;Group-Te;Group_Te+sp;EF024447;97,6;undetermined;undetermined
+Otu105;Cercomonadida;Cercomonadidae;Cercomonas;Cercomonas+plasmodialis;AF411268;96,58;omnivore;naked amoeboflagellate
+Otu106;Glissomonadida;Sandonidae;Sandonidae_X;Sandonidae_X+sp;AM114804;96,59;bacterivore;naked flagellate
+Otu107;Glissomonadida;Proleptomonadidae;Proleptomonas;Proleptomonas+faecicola;AF411275;100;bacterivore;naked flagellate
+Otu108;Glissomonadida;Sandonidae;Sandonidae_X;Sandonidae_X+sp;KC672587;96,31;bacterivore;naked flagellate
+Otu109;Glissomonadida;Sandonidae;Sandonidae_X;Sandonidae_X+sp;AM114804;95,65;bacterivore;naked flagellate
+Otu110;Cercomonadida;Cercomonadidae;Cercomonas;Cercomonas+sp;EF024080;96,56;omnivore;naked amoeboflagellate
+Otu111;Glissomonadida;Allapsidae;Allapsidae_X;Allapsidae_X+sp;AB534329;92,1;bacterivore;naked flagellate
+Otu112;Glissomonadida;Allapsidae;Allapsidae_X;Allapsidae_X+sp;EU709273;96,62;bacterivore;naked flagellate
+Otu113;Glissomonadida;Sandonidae;Sandonidae_X;Sandonidae_X+sp;AM114804;94,79;bacterivore;naked flagellate
+Otu114;Ventricleftida;Ventricleftida_X;Ventricleftida_XX;Ventricleftida_XX+sp;AB505573;91,08;eukaryvore;testate cell organic
+Otu115;Cercomonadida;Cercomonadidae;Cercomonas;Cercomonas+sp;FJ790750;96,04;omnivore;naked amoeboflagellate
+Otu116;Plasmodiophorida;Plasmodiophorida_X;Woronina;Woronina+pythii;KF111231;98,82;not plant parasite;endoparasite
+Otu117;Glissomonadida;Allapsidae;Allantion;Allantion+sp;EF023859;99,08;bacterivore;naked flagellate
+Otu118;Thaumatomonadida;Thaumatomonadidae;Thaumatomonas;Thaumatomonas+sp;EF023813;98,77;bacterivore;testate cell silica
+Otu119;Glissomonadida;Allapsidae;Allapsidae_X;Allapsidae_X+sp;EU709266;94,79;bacterivore;naked flagellate
+Otu120;Glissomonadida;Sandonidae;Mollimonas;Mollimonas+vickermani;HQ918173;97,52;bacterivore;naked flagellate
+Otu121;Glissomonadida;Glissomonadida_X;Glissomonadida_XX;Glissomonadida_XX+sp;KC672643;91,13;undetermined;undetermined
+Otu122;Glissomonadida;Allapsidae;Allapsidae_X;Allapsidae_X+sp;EU709273;85,15;bacterivore;naked flagellate
+Otu123;Glissomonadida;Proleptomonadidae;Proleptomonas;Proleptomonas+faecicola;AF411275;96,59;bacterivore;naked flagellate
+Otu124;Glissomonadida;Sandonidae;Sandonidae_X;Sandonidae_X+sp;AM114804;96,89;bacterivore;naked flagellate
+Otu125;Glissomonadida;Sandonidae;Flectomonas;Flectomonas+ekelundi;HM536169;96,89;bacterivore;naked flagellate
+Otu126;Glissomonadida;Glissomonadida_X;Glissomonadida_XX;Glissomonadida_XX+sp;EU709274;94,19;undetermined;undetermined
+Otu127;Cryomonadida;Rhogostoma-lineage;Rhogostoma-lineage_X;Rhogostoma-lineage_X+sp;EF023812;92,26;omnivore;testate cell organic
+Otu128;Glissomonadida;Sandonidae;Sandonidae_X;Sandonidae_X+sp;AM114804;94,44;bacterivore;naked flagellate
+Otu129;Glissomonadida;Sandonidae;Sandonidae_X;Sandonidae_X+sp;AM114804;95,65;bacterivore;naked flagellate
+Otu130;Glissomonadida;Sandonidae;Sandonidae_X;Sandonidae_X+sp;AM114804;96,6;bacterivore;naked flagellate
+Otu131;Euglyphida;Euglyphidae;Euglypha;Euglypha+tuberculata;AJ418787;91,33;omnivore;testate cell silica
+Otu132;Thaumatomonadida;Thaumatomonadida_X;Thaumatomonadida_XX;Thaumatomonadida_XX+sp;AY620310;91,64;undetermined;undetermined
+Otu133;Glissomonadida;Sandonidae;Sandonidae_X;Sandonidae_X+sp;KC672568;95,78;bacterivore;naked flagellate
+Otu134;Glissomonadida;Allapsidae;Allapsidae_X;Allapsidae_X+sp;AB695526;94,39;bacterivore;naked flagellate
+Otu135;Glissomonadida;Allapsidae;Allapsidae_X;Allapsidae_X+sp;AB534329;95,41;bacterivore;naked flagellate
+Otu136;Cercomonadida;Cercomonadidae;Cercomonas;Cercomonas+plasmodialis;AF411268;96,58;omnivore;naked amoeboflagellate
+Otu137;Glissomonadida;Allapsidae;Allapsidae_X;Allapsidae_X+sp;EU709273;93,23;bacterivore;naked flagellate
+Otu138;Cryomonadida;Rhogostoma-lineage;Rhogostoma-lineage_X;Rhogostoma-lineage_X+sp;EF100318;93,81;omnivore;testate cell organic
+Otu139;Glissomonadida;Sandonidae;Sandonidae_X;Sandonidae_X+sp;AM114804;97,21;bacterivore;naked flagellate
+Otu140;unassigned Cercozoa;Cercozoa_XXX;Cercozoa_XXXX;Cercozoa_XXXX+sp;AY620297;97,22;undetermined;undetermined
+Otu141;Tectofilosida;Pseudodifflugiidae;Pseudodifflugiidae_X;Pseudodifflugiidae_X+sp;JN090862;87,46;eukaryvore;testate cell organic
+Otu142;Glissomonadida;Allapsidae;Allapsidae_X;Allapsidae_X+sp;EU709273;94,19;bacterivore;naked flagellate
+Otu143;Cryomonadida;Rhogostoma-lineage;Rhogostoma-lineage_X;Rhogostoma-lineage_X+sp;EF023810;99,53;omnivore;testate cell organic
+Otu144;Glissomonadida;Sandonidae;Sandonidae_X;Sandonidae_X+sp;FJ592291;96,27;bacterivore;naked flagellate
+Otu145;Glissomonadida;Allapsidae;Allapsidae_X;Allapsidae_X+sp;EU709273;89,39;bacterivore;naked flagellate
+Otu146;Cryomonadida;Rhogostoma-lineage;Rhogostoma-lineage_X;Rhogostoma-lineage_X+sp;EF023812;95,98;omnivore;testate cell organic
+Otu147;Glissomonadida;Allapsidae;Allapsidae_X;Allapsidae_X+sp;EU709266;96;bacterivore;naked flagellate
+Otu148;Tectofilosida;Pseudodifflugiidae;Pseudodifflugiidae_X;Pseudodifflugiidae_X+sp;AY620282;89,11;eukaryvore;testate cell organic
+Otu149;Euglyphida;Trinematidae;Trinematidae_X;Trinematidae_X+sp;EF024880;94,77;omnivore;testate cell silica
+Otu150;Glissomonadida;Sandonidae;Sandonidae_X;Sandonidae_X+sp;AM114804;96,89;bacterivore;naked flagellate
+Otu151;Euglyphida;Euglyphidae;Euglypha;Euglypha+penardi;EF456753;95,99;omnivore;testate cell silica
+Otu152;Cercomonadida;Paracercomonadidae;Paracercomonas;Paracercomonas+sp;AY620298;87,85;bacterivore;naked amoeboflagellate
+Otu153;Euglyphida;Euglyphidae;Euglypha;Euglypha+tuberculata;AJ418787;91,36;omnivore;testate cell silica
+Otu154;Cryomonadida;Rhogostoma-lineage;Rhogostoma-lineage_X;Rhogostoma-lineage_X+sp;HM628684;99,07;omnivore;testate cell organic
+Otu155;Glissomonadida;Glissomonadida_X;Glissomonadida_XX;Glissomonadida_XX+sp;KC672643;98,16;undetermined;undetermined
+Otu156;Glissomonadida;Sandonidae;Bodomorpha;Bodomorpha+sp;HM536172;97,2;bacterivore;naked flagellate
+Otu157;Glissomonadida;Bodomorphidae;Bodomorpha;Bodomorpha+sp;EU647174;96,59;bacterivore;naked flagellate
+Otu158;Glissomonadida;Sandonidae;Sandonidae_X;Sandonidae_X+sp;FJ592291;97,2;bacterivore;naked flagellate
+Otu159;Glissomonadida;Glissomonadida_X;Glissomonadida_XX;Glissomonadida_XX+sp;AY082974;95,73;undetermined;undetermined
+Otu160;Glissomonadida;Glissomonadida_X;Glissomonadida_XX;Glissomonadida_XX+sp;JN635482;96,93;undetermined;undetermined
+Otu161;Cercomonadida;Paracercomonadidae;Paracercomonas;Paracercomonas+virgaria;AY884340;94,03;bacterivore;naked amoeboflagellate
+Otu162;unassigned Granofilosea;Novel-Gran-6;Novel-Gran-6_X;Novel-Gran-6_X+sp;AY620300;94,83;undetermined;undetermined
+Otu163;Cryomonadida;Rhogostoma-lineage;Rhogostoma-lineage_X;Rhogostoma-lineage_X+sp;HM628684;99,05;omnivore;testate cell organic
+Otu164;Glissomonadida;Allapsidae;Allapsidae_X;Allapsidae_X+sp;AB534329;94,79;bacterivore;naked flagellate
+Otu165;Glissomonadida;Glissomonadida_X;Glissomonadida_XX;Glissomonadida_XX+sp;JN635482;94,79;undetermined;undetermined
+Otu166;Glissomonadida;Sandonidae;Sandonidae_X;Sandonidae_X+sp;KC672587;96,59;bacterivore;naked flagellate
+Otu167;Tectofilosida;Pseudodifflugiidae;Pseudodifflugiidae_X;Pseudodifflugiidae_X+sp;HQ696567;88,04;eukaryvore;testate cell organic
+Otu168;Cryomonadida;Rhogostoma-lineage;Rhogostoma-lineage_X;Rhogostoma-lineage_X+sp;EF023812;93,81;omnivore;testate cell organic
+Otu169;Glissomonadida;Sandonidae;Sandona;Sandona+sp;EU709136;94,53;bacterivore;naked flagellate
+Otu170;Euglyphida;Euglyphidae;Trachelocorythion;Trachelocorythion+pulchellum;AJ418789;97,52;omnivore;testate cell silica
+Otu171;Euglyphida;Euglyphidae;Euglypha;Euglypha+tuberculata;AJ418787;94,44;omnivore;testate cell silica
+Otu172;Glissomonadida;Allapsidae;Teretomonas;Teretomonas+rotunda;EU709247;89,26;bacterivore;naked flagellate
+Otu173;Glissomonadida;Allapsidae;Allapsidae_X;Allapsidae_X+sp;EU709273;93,27;bacterivore;naked flagellate
+Otu174;Cryomonadida;Rhogostoma-lineage;Rhogostoma;Rhogostoma+schuessleri;HQ121430;98,76;omnivore;testate cell organic
+Otu175;Cercomonadida;Cercomonadidae;Cercomonas;Cercomonas+longicauda;DQ442884;95,38;omnivore;naked amoeboflagellate
+Otu176;Glissomonadida;Sandonidae;Sandonidae_X;Sandonidae_X+sp;AM114804;96,59;bacterivore;naked flagellate
+Otu177;Glissomonadida;Allapsidae;Allapsidae_X;Allapsidae_X+sp;EU709273;94,48;bacterivore;naked flagellate
+Otu178;Glissomonadida;Allapsidae;Allapsidae_X;Allapsidae_X+sp;AB695472;95,96;bacterivore;naked flagellate
+Otu179;Cryomonadida;Rhogostoma-lineage;Rhogostoma-lineage_X;Rhogostoma-lineage_X+sp;HM628684;95,98;omnivore;testate cell organic
+Otu180;Glissomonadida;Sandonidae;Sandonidae_X;Sandonidae_X+sp;HQ918179;100;bacterivore;naked flagellate
+Otu181;Glissomonadida;Allapsidae;Allapsidae_X;Allapsidae_X+sp;EU709273;96,19;bacterivore;naked flagellate
+Otu182;Glissomonadida;Bodomorphidae;Bodomorpha;Bodomorpha+sp;EU647174;94,04;bacterivore;naked flagellate
+Otu183;Glissomonadida;Allapsidae;Allapsidae_X;Allapsidae_X+sp;EU709273;90,63;bacterivore;naked flagellate
+Otu184;Glissomonadida;Sandonidae;Sandona;Sandona+octamutans;HQ918176;99,07;bacterivore;naked flagellate
+Otu185;Glissomonadida;Allapsidae;Allapsidae_X;Allapsidae_X+sp;AB695526;95,71;bacterivore;naked flagellate
+Otu186;Cercomonadida;Cercomonadidae;Eocercomonas;Eocercomonas+sp;EF023565;99,69;omnivore;naked amoeboflagellate
+Otu187;Glissomonadida;Allapsidae;Allapsidae_X;Allapsidae_X+sp;EU709273;96,92;bacterivore;naked flagellate
+Otu188;Glissomonadida;Allapsidae;Allapsidae_X;Allapsidae_X+sp;EU709273;85,37;bacterivore;naked flagellate
+Otu189;Cercomonadida;Paracercomonadidae;Paracercomonas;Paracercomonas+sp;EF024294;91,07;bacterivore;naked amoeboflagellate
+Otu190;Glissomonadida;Sandonidae;Bodomorpha;Bodomorpha+sp;HM536170;97,52;bacterivore;naked flagellate
+Otu191;Glissomonadida;Glissomonadida_X;Glissomonadida_XX;Glissomonadida_XX+sp;AY082974;93,92;undetermined;undetermined
+Otu192;Glissomonadida;Allapsidae;Allantion;Allantion+sp;EF023859;89,39;bacterivore;naked flagellate
+Otu193;Cryomonadida;Rhogostoma-lineage;Rhogostoma-lineage_X;Rhogostoma-lineage_X+sp;EF023810;100;omnivore;testate cell organic
+Otu194;Novel-clade-10;Novel-clade-10_X;Novel-clade-10_XX;Novel-clade-10_XX+sp;EU162633;87,56;eukaryvore;naked flagellate
+Otu195;Glissomonadida;Sandonidae;Sandona;Sandona+aporians;AY965867;95,34;bacterivore;naked flagellate
+Otu196;Cercomonadida;Paracercomonadidae;Nucleocercomonas;Nucleocercomonas+praelonga;HM536166;89,16;bacterivore;naked amoeboflagellate
+Otu197;Glissomonadida;Bodomorphidae;Bodomorpha;Bodomorpha+sp;JN054696;89,32;bacterivore;naked flagellate
+Otu198;Glissomonadida;Allapsidae;Allapsidae_X;Allapsidae_X+sp;EU709273;89,29;bacterivore;naked flagellate
+Otu199;Glissomonadida;Allapsidae;Allapsidae_X;Allapsidae_X+sp;EF023715;97,84;bacterivore;naked flagellate
+Otu200;Glissomonadida;Allapsidae;Allapsidae_X;Allapsidae_X+sp;EU709273;94,48;bacterivore;naked flagellate
+Otu201;Glissomonadida;Glissomonadida_X;Glissomonadida_XX;Glissomonadida_XX+sp;KC672643;95,71;undetermined;undetermined
+Otu202;Cryomonadida;Protaspa-lineage;Protaspa-lineage_X;Protaspa-lineage_X+sp;AF372764;95,24;eukaryvore;testate cell organic
+Otu203;Glissomonadida;Sandonidae;Sandonidae_X;Sandonidae_X+sp;AM114804;96,58;bacterivore;naked flagellate
+Otu204;Cercomonadida;Cercomonadidae;Cercomonas;Cercomonas+nebulosa;FJ790690;94,67;omnivore;naked amoeboflagellate
+Otu205;unassigned Filosa;Filosa_XX;Filosa_XXX;Filosa_XXX+sp;EF024287;91,61;undetermined;undetermined
+Otu206;Glissomonadida;Allapsidae;Allapsidae_X;Allapsidae_X+sp;AB534329;97,24;bacterivore;naked flagellate
+Otu207;Glissomonadida;Allapsidae;Allapsidae_X;Allapsidae_X+sp;EU709273;92,66;bacterivore;naked flagellate
+Otu208;Euglyphida;Euglyphidae;Assulina;Assulina+muscorum;AJ418791;99,04;omnivore;testate cell silica
+Otu209;Glissomonadida;Sandonidae;Sandonidae_X;Sandonidae_X+sp;AM114804;96,89;bacterivore;naked flagellate
+Otu210;Cercomonadida;Cercomonadidae;Cercomonas;Cercomonas+zhukovi;FJ790683;96,28;omnivore;naked amoeboflagellate
+Otu211;Glissomonadida;Allapsidae;Allapsidae_X;Allapsidae_X+sp;EU709273;91,84;bacterivore;naked flagellate
+Otu212;Glissomonadida;Allapsidae;Allapsidae_X;Allapsidae_X+sp;EU709273;95,71;bacterivore;naked flagellate
+Otu213;Cercomonadida;Paracercomonadidae;Paracercomonas;Paracercomonas+sp;EF024396;91,9;bacterivore;naked amoeboflagellate
+Otu214;Glissomonadida;Sandonidae;Sandonidae_X;Sandonidae_X+sp;KC672587;90,4;bacterivore;naked flagellate
+Otu215;Glissomonadida;Sandonidae;Sandonidae_X;Sandonidae_X+sp;EU709222;99,68;bacterivore;naked flagellate
+Otu216;Cercomonadida;Cercomonadidae;Cercomonas;Cercomonas+effusa;FJ790703;99,08;omnivore;naked amoeboflagellate
+Otu217;Euglyphida;Euglyphida_X;Euglyphida_XX;Euglyphida_XX+sp;AB275100;93,54;undetermined;testate cell silica
+Otu218;Cryomonadida;Rhogostoma-lineage;Rhogostoma-lineage_X;Rhogostoma-lineage_X+sp;EF023810;98,1;omnivore;testate cell organic
+Otu219;Glissomonadida;Sandonidae;Sandonidae_X;Sandonidae_X+sp;HQ918179;100;bacterivore;naked flagellate
+Otu220;Vampyrellida;Leptophryidae;Platyreta;Platyreta+germanica;AY941201;94,65;eukaryvore;naked amoeba
+Otu221;Euglyphida;Euglyphida_X;Euglyphida_XX;Euglyphida_XX+sp;AY620296;98,45;undetermined;testate cell silica
+Otu222;Glissomonadida;Allapsidae;Allapsa;Allapsa+sp;AY962866;94,44;bacterivore;naked flagellate
+Otu223;Glissomonadida;Sandonidae;Mollimonas;Mollimonas+vickermani;HQ918173;95,96;bacterivore;naked flagellate
+Otu224;Glissomonadida;Sandonidae;Sandonidae_X;Sandonidae_X+sp;KC672587;96,28;bacterivore;naked flagellate
+Otu225;Cercomonadida;Paracercomonadidae;Paracercomonas;Paracercomonas+sp;HM536155;100;bacterivore;naked amoeboflagellate
+Otu226;Thaumatomonadida;Thaumatomonadidae;Thaumatomonas;Thaumatomonas+sp;HQ121429;100;bacterivore;testate cell silica
+Otu227;Glissomonadida;Glissomonadida_X;Glissomonadida_XX;Glissomonadida_XX+sp;AB695519;95,05;undetermined;undetermined
+Otu228;Cercomonadida;Paracercomonadidae;Paracercomonas;Paracercomonas+sp;EF024294;91,93;bacterivore;naked amoeboflagellate
+Otu229;Glissomonadida;Allapsidae;Allapsidae_X;Allapsidae_X+sp;EU709273;93,23;bacterivore;naked flagellate
+Otu230;Plasmodiophorida;S-nasturtii-lineage;Spongospora;Spongospora+nasturtii;AF310901;99,7;plant parasite;endoparasite
+Otu231;Euglyphida;Euglyphidae;Assulina;Assulina+muscorum;AJ418791;97,6;omnivore;testate cell silica
+Otu232;Pansomonadida;Agitatidae;Agitata;Agitata+vibrans;HQ121438;99,7;bacterivore;naked amoeboflagellate
+Otu233;Limnofilida;Limnofilidae;Limnofilidae_X;Limnofilidae_X+sp;AY082993;94,44;bacterivore;naked amoeboflagellate
+Otu234;Glissomonadida;Sandonidae;Sandonidae_X;Sandonidae_X+sp;FJ592291;97,83;bacterivore;naked flagellate
+Otu235;Euglyphida;Euglyphidae;Euglypha;Euglypha+penardi;EF456753;88,31;omnivore;testate cell silica
+Otu236;Glissomonadida;Sandonidae;Sandonidae_X;Sandonidae_X+sp;AM114804;95,36;bacterivore;naked flagellate
+Otu237;Glissomonadida;Allapsidae;Allapsidae_X;Allapsidae_X+sp;AB534329;99,69;bacterivore;naked flagellate
+Otu238;Glissomonadida;Proleptomonadidae;Proleptomonas;Proleptomonas+faecicola;AF411275;95,96;bacterivore;naked flagellate
+Otu239;Glissomonadida;Allapsidae;Teretomonas;Teretomonas+rotunda;EU709247;95,65;bacterivore;naked flagellate
+Otu240;Euglyphida;Euglyphida_X;Euglyphida_XX;Euglyphida_XX+sp;AY620283;89,52;undetermined;testate cell silica
+Otu241;Glissomonadida;Sandonidae;Mollimonas;Mollimonas+vickermani;HQ918173;96,58;bacterivore;naked flagellate
+Otu242;Glissomonadida;Sandonidae;Sandonidae_X;Sandonidae_X+sp;FJ592291;98,14;bacterivore;naked flagellate
+Otu243;Glissomonadida;Allapsidae;Allapsidae_X;Allapsidae_X+sp;EU709273;92,68;bacterivore;naked flagellate
+Otu244;Glissomonadida;Allapsidae;Allapsidae_X;Allapsidae_X+sp;EU709273;97,1;bacterivore;naked flagellate
+Otu245;Glissomonadida;Sandonidae;Sandona;Sandona+aporians;AY965867;92,24;bacterivore;naked flagellate
+Otu246;Glissomonadida;Sandonidae;Flectomonas;Flectomonas+ekelundi;HM536169;97,2;bacterivore;naked flagellate
+Otu247;Cercomonadida;Cercomonadidae;Cercomonas;Cercomonas+sp;KF219358;100;omnivore;naked amoeboflagellate
+Otu248;Glissomonadida;Allapsidae;Allapsidae_X;Allapsidae_X+sp;EU709273;93,56;bacterivore;naked flagellate
+Otu249;Cryomonadida;Rhogostoma-lineage;Rhogostoma;Rhogostoma+schuessleri;HQ121430;91,33;omnivore;testate cell organic
+Otu250;Cercomonadida;Paracercomonadidae;Paracercomonas;Paracercomonas+sp;AY360709;94,74;bacterivore;naked amoeboflagellate
+Otu251;Glissomonadida;Allapsidae;Allapsidae_X;Allapsidae_X+sp;AB695472;100;bacterivore;naked flagellate
+Otu252;Glissomonadida;Sandonidae;Sandonidae_X;Sandonidae_X+sp;AM114804;89,33;bacterivore;naked flagellate
+Otu253;Vampyrellida;Vampyrellida_X;Thalassomyxa;Thalassomyxa+sp;KC779515;95,02;eukaryvore;naked amoeba
+Otu254;Glissomonadida;Allapsidae;Allapsidae_X;Allapsidae_X+sp;EU709273;83,83;bacterivore;naked flagellate
+Otu255;Cercomonadida;Cercomonadidae;Cercomonas;Cercomonas+sp;EF024477;98,13;omnivore;naked amoeboflagellate
+Otu256;Cercomonadida;Cercomonadidae;Cercomonas;Cercomonas+sp;FJ790751;97,2;omnivore;naked amoeboflagellate
+Otu257;Tectofilosida;Pseudodifflugiidae;Pseudodifflugiidae_X;Pseudodifflugiidae_X+sp;JN090862;98,13;eukaryvore;testate cell organic
+Otu258;Glissomonadida;Sandonidae;Sandonidae_X;Sandonidae_X+sp;KC672587;93,5;bacterivore;naked flagellate
+Otu259;Cercomonadida;Cercomonadidae;Eocercomonas;Eocercomonas+sp;HM536154;99,38;omnivore;naked amoeboflagellate
+Otu260;Glissomonadida;Sandonidae;Sandonidae_X;Sandonidae_X+sp;FJ592291;97,2;bacterivore;naked flagellate
+Otu261;Glissomonadida;Allapsidae;Group-Te;Group_Te+sp;EF024447;94,33;undetermined;undetermined
+Otu262;Vampyrellida;Penardia-lineage;Penardia-lineage_X;Penardia-lineage_X+sp;AF372744;86,3;undetermined;undetermined
+Otu263;Glissomonadida;Sandonidae;Bodomorpha;Bodomorpha+sp;HM536172;95,4;bacterivore;naked flagellate
+Otu264;Plasmodiophorida;Plasmodiophoridae;Polymyxa;Polymyxa+graminis;AF310898;100;plant parasite;endoparasite
+Otu265;Cercomonadida;Cercomonadidae;Cercomonas;Cercomonas+radiata;FJ790712;98,56;omnivore;naked amoeboflagellate
+Otu266;Glissomonadida;Allapsidae;Allapsidae_X;Allapsidae_X+sp;EU709273;93,23;bacterivore;naked flagellate
+Otu267;Glissomonadida;Allapsidae;Viridiraptor;Viridiraptor+invadens;KF207869;96,64;eukaryvore;naked amoeboflagellate
+Otu268;Glissomonadida;Sandonidae;Sandonidae_X;Sandonidae_X+sp;AM114804;96,9;bacterivore;naked flagellate
+Otu269;Cercomonadida;Paracercomonadidae;Paracercomonas;Paracercomonas+compacta;FJ790723;96,87;bacterivore;naked amoeboflagellate
+Otu270;Glissomonadida;Sandonidae;Sandonidae_X;Sandonidae_X+sp;KC672587;92,62;bacterivore;naked flagellate
+Otu271;Glissomonadida;Allapsidae;Teretomonas;Teretomonas+rotunda;EU709247;91,61;bacterivore;naked flagellate
+Otu272;Glissomonadida;Bodomorphidae;Bodomorpha;Bodomorpha+sp;EU647174;91,1;bacterivore;naked flagellate
+Otu273;Spongomonadida;Spongomonadidae;Spongomonas;Spongomonas+minima;AF411281;95,03;bacterivore;naked flagellate
+Otu274;Plasmodiophorida;Plasmodiophoridae;Polymyxa;Polymyxa+betae;AF310902;100;plant parasite;endoparasite
+Otu275;Thaumatomonadida;Peregriniidae;Peregrinia;Peregrinia+clavideferens;DQ211593;98,78;bacterivore;testate cell silica
+Otu276;unassigned Cercozoa;Cercozoa_XXX;Cercozoa_XXXX;Cercozoa_XXXX+sp;AY620297;93,88;undetermined;undetermined
+Otu277;Glissomonadida;Allapsidae;Allapsidae_X;Allapsidae_X+sp;EU709273;97,12;bacterivore;naked flagellate
+Otu278;Glissomonadida;Allapsidae;Allapsidae_X;Allapsidae_X+sp;EU709273;92,02;bacterivore;naked flagellate
+Otu279;Glissomonadida;Sandonidae;Sandonidae_X;Sandonidae_X+sp;KC672568;95,77;bacterivore;naked flagellate
+Otu280;Cercomonadida;Cercomonadidae;Cavernomonas;Cavernomonas+mira;FJ790718;93,9;bacterivore;naked flagellate
+Otu281;Tectofilosida;Pseudodifflugiidae;Pseudodifflugiidae_X;Pseudodifflugiidae_X+sp;AY620282;89,6;eukaryvore;testate cell organic
+Otu282;Glissomonadida;Sandonidae;Sandonidae_X;Sandonidae_X+sp;EU709138;98,45;bacterivore;naked flagellate
+Otu283;Glissomonadida;Sandonidae;Sandonidae_X;Sandonidae_X+sp;AM114804;96,89;bacterivore;naked flagellate
+Otu284;Cercomonadida;Paracercomonadidae;Paracercomonas;Paracercomonas+saepenatans;FJ790731;100;bacterivore;naked amoeboflagellate
+Otu285;Glissomonadida;Allapsidae;Allapsidae_X;Allapsidae_X+sp;AB695472;93,79;bacterivore;naked flagellate
+Otu286;Glissomonadida;Allapsidae;Allapsidae_X;Allapsidae_X+sp;EU709273;96,31;bacterivore;naked flagellate
+Otu287;Cercomonadida;Cercomonadidae;Cercomonadidae_X;Cercomonadidae_X+sp;AB534320;95,98;undetermined;undetermined
+Otu288;Cercomonadida;Cercomonadidae;Cercomonas;Cercomonas+longicauda;DQ442884;97,24;omnivore;naked amoeboflagellate
+Otu289;Glissomonadida;Allapsidae;Allapsidae_X;Allapsidae_X+sp;EU709273;91,79;bacterivore;naked flagellate
+Otu290;Euglyphida;Paulinellidae;Paulinella;Paulinella+sp;AB695524;92,31;autotroph;testate cell silica
+Otu291;Cercomonadida;Paracercomonadidae;Paracercomonas;Paracercomonas+compacta;FJ790723;89,66;bacterivore;naked amoeboflagellate
+Otu292;Cercomonadida;Cercomonadidae;Cercomonas;Cercomonas+sp;FJ790705;86,83;omnivore;naked amoeboflagellate
+Otu293;Cercomonadida;Cercomonadidae;Cercomonas;Cercomonas+zhukovi;FJ790683;95,73;omnivore;naked amoeboflagellate
+Otu294;Glissomonadida;Allapsidae;Allapsidae_X;Allapsidae_X+sp;EU709273;92,12;bacterivore;naked flagellate
+Otu295;Glissomonadida;Allapsidae;Group-Te;Group_Te+sp;EF024447;93,41;undetermined;undetermined
+Otu296;Spongomonadida;Spongomonadidae;Spongomonas;Spongomonas+sp;AY620252;98,13;bacterivore;naked flagellate
+Otu297;Glissomonadida;Sandonidae;Sandonidae_X;Sandonidae_X+sp;AM114804;86,28;bacterivore;naked flagellate
+Otu298;Euglyphida;Euglyphida_X;Euglyphida_XX;Euglyphida_XX+sp;AY620296;92,26;undetermined;testate cell silica
+Otu299;Glissomonadida;Allapsidae;Allapsidae_X;Allapsidae_X+sp;EU709273;96,34;bacterivore;naked flagellate
+Otu300;Glissomonadida;Sandonidae;Sandonidae_X;Sandonidae_X+sp;FJ592291;91,93;bacterivore;naked flagellate
+Otu301;Tectofilosida;Pseudodifflugiidae;Pseudodifflugiidae_X;Pseudodifflugiidae_X+sp;AY620282;89,6;eukaryvore;testate cell organic
+Otu302;Glissomonadida;Sandonidae;Sandona;Sandona+aporians;AY965867;94,72;bacterivore;naked flagellate
+Otu303;Glissomonadida;Sandonidae;Sandonidae_X;Sandonidae_X+sp;AJ867644;93,58;bacterivore;naked flagellate
+Otu304;Spongomonadida;Spongomonadidae;Spongomonas;Spongomonas+minima;AF411281;95,65;bacterivore;naked flagellate
+Otu305;Euglyphida;Euglyphida_X;Euglyphida_XX;Euglyphida_XX+sp;KF219445;86,15;undetermined;testate cell silica
+Otu306;Cercomonadida;Paracercomonadidae;Nucleocercomonas;Nucleocercomonas+praelonga;HM536166;87,57;bacterivore;naked amoeboflagellate
+Otu307;Cercomonadida;Cercomonadidae;Cercomonas;Cercomonas+sp;EF024028;94,5;omnivore;naked amoeboflagellate
+Otu308;Cercomonadida;Cercomonadidae;Cercomonas;Cercomonas+plasmodialis;AF411268;97,2;omnivore;naked amoeboflagellate
+Otu309;Glissomonadida;Sandonidae;Sandonidae_X;Sandonidae_X+sp;AM114804;93,79;bacterivore;naked flagellate
+Otu310;Glissomonadida;Sandonidae;Sandonidae_X;Sandonidae_X+sp;AM114804;96,89;bacterivore;naked flagellate
+Otu311;Limnofilida;Limnofilidae;Limnofila;Limnofila+anglica;EU567255;97,55;bacterivore;naked amoeboflagellate
+Otu312;Euglyphida;Euglyphidae;Assulina;Assulina+muscorum;AJ418791;95,67;omnivore;testate cell silica
+Otu313;Marimonadida;Marimonadida_X;Marimonadida_XX;Marimonadida_XX+sp;HQ864984;93,2;undetermined;naked flagellate
+Otu314;Euglyphida;Euglyphidae;Euglypha;Euglypha+tuberculata;AJ418787;93,5;omnivore;testate cell silica
+Otu315;Glissomonadida;Sandonidae;Sandonidae_X;Sandonidae_X+sp;AM114804;96,27;bacterivore;naked flagellate
+Otu316;Euglyphida;Euglyphida_X;Euglyphida_XX;Euglyphida_XX+sp;AY620296;92,26;undetermined;testate cell silica
+Otu317;Cercomonadida;Cercomonadidae;Cercomonas;Cercomonas+plasmodialis;AF411268;95,65;omnivore;naked amoeboflagellate
+Otu318;Glissomonadida;Sandonidae;Sandonidae_X;Sandonidae_X+sp;EU709223;100;bacterivore;naked flagellate
+Otu319;Glissomonadida;Allapsidae;Allapsidae_X;Allapsidae_X+sp;EU709273;92,62;bacterivore;naked flagellate
+Otu320;Euglyphida;Euglyphida_X;Euglyphida_XX;Euglyphida_XX+sp;AY620296;95,98;undetermined;testate cell silica
+Otu321;Vampyrellida;Leptophryidae;Platyreta;Platyreta+germanica;AY941201;99,38;eukaryvore;naked amoeba
+Otu322;Tectofilosida;Pseudodifflugiidae;Pseudodifflugiidae_X;Pseudodifflugiidae_X+sp;JN090862;87,01;eukaryvore;testate cell organic
+Otu323;Cercomonadida;Paracercomonadidae;Paracercomonas;Paracercomonas+sp;AY360709;97,83;bacterivore;naked amoeboflagellate
+Otu324;Glissomonadida;Sandonidae;Sandona;Sandona+aporians;AY965867;95,96;bacterivore;naked flagellate
+Otu325;Cercomonadida;Paracercomonadidae;Nucleocercomonas;Nucleocercomonas+praelonga;HM536166;90,03;bacterivore;naked amoeboflagellate
+Otu326;unassigned Cercozoa;Cercozoa_XXX;Cercozoa_XXXX;Cercozoa_XXXX+sp;AY620297;98,61;undetermined;undetermined
+Otu327;Glissomonadida;Glissomonadida_X;Glissomonadida_XX;Glissomonadida_XX+sp;EU709274;95,36;undetermined;undetermined
+Otu328;Tectofilosida;Pseudodifflugiidae;Pseudodifflugiidae_X;Pseudodifflugiidae_X+sp;GU479953;88,79;eukaryvore;testate cell organic
+Otu329;unassigned Imbricatea;Nudifilidae;Nudifila;Nudifila+producta;HQ121434;95,36;bacterivore;naked amoeboflagellate
+Otu330;Cercomonadida;Cercomonadidae;Cercomonas;Cercomonas+fastiga;FJ790700;95,68;omnivore;naked amoeboflagellate
+Otu331;unassigned Cercozoa;Cercozoa_XXX;Cercozoa_XXXX;Cercozoa_XXXX+sp;AY620297;97,6;undetermined;undetermined
+Otu332;Glissomonadida;Sandonidae;Mollimonas;Mollimonas+vickermani;HQ918173;98,44;bacterivore;naked flagellate
+Otu333;Glissomonadida;Sandonidae;Sandonidae_X;Sandonidae_X+sp;KC672587;95,68;bacterivore;naked flagellate
+Otu334;Glissomonadida;Sandonidae;Sandonidae_X;Sandonidae_X+sp;EU709135;94,4;bacterivore;naked flagellate
+Otu335;Glissomonadida;Allapsidae;Allapsidae_X;Allapsidae_X+sp;EU709273;94,71;bacterivore;naked flagellate
+Otu336;Cercomonadida;Paracercomonadidae;Paracercomonas;Paracercomonas+virgaria;AY884340;95,28;bacterivore;naked amoeboflagellate
+Otu337;Cercomonadida;Cercomonadidae;Cercomonas;Cercomonas+longicauda;DQ442884;95,4;omnivore;naked amoeboflagellate
+Otu338;Cercomonadida;Cercomonadidae;Cercomonas;Cercomonas+plasmodialis;AF411268;95,34;omnivore;naked amoeboflagellate
+Otu339;Euglyphida;Euglyphidae;Euglypha;Euglypha+tuberculata;AJ418787;94,76;omnivore;testate cell silica
+Otu340;Cercomonadida;Cercomonadidae;Cercomonas;Cercomonas+longicauda;DQ442884;97,84;omnivore;naked amoeboflagellate
+Otu341;Glissomonadida;Allapsidae;Group-Te;Group_Te+sp;EU709245;95,69;undetermined;undetermined
+Otu342;Glissomonadida;Sandonidae;Sandonidae_X;Sandonidae_X+sp;FJ592291;95,65;bacterivore;naked flagellate
+Otu343;Euglyphida;Euglyphidae;Assulina;Assulina+muscorum;AJ418791;96,28;omnivore;testate cell silica
+Otu344;Vampyrellida;Leptophryidae;Platyreta;Platyreta+germanica;AY941201;93,71;eukaryvore;naked amoeba
+Otu345;Glissomonadida;Allapsidae;Allapsidae_X;Allapsidae_X+sp;EU709273;91,82;bacterivore;naked flagellate
+Otu346;Glissomonadida;Allapsidae;Allapsidae_X;Allapsidae_X+sp;AB534329;95,4;bacterivore;naked flagellate
+Otu347;Cryptofilida;Mesofilidae;Mesofila;Mesofila+limnetica;AF411283;96,93;bacterivore;naked amoeboflagellate
+Otu348;Glissomonadida;Sandonidae;Sandonidae_X;Sandonidae_X+sp;HQ121433;95,05;bacterivore;naked flagellate
+Otu349;Tremulida;Tremulidae;Tremula;Tremula+longifila;EU567287;92,9;eukaryvore;naked flagellate
+Otu350;Glissomonadida;Glissomonadida_X;Glissomonadida_XX;Glissomonadida_XX+sp;KC672643;92,64;undetermined;undetermined
+Otu351;Cercomonadida;Paracercomonadidae;Nucleocercomonas;Nucleocercomonas+praelonga;HM536166;100;bacterivore;naked amoeboflagellate
+Otu352;unassigned Imbricatea;Filosa-Imbricatea_XX;Filosa-Imbricatea_XXX;Filosa-Imbricatea_XXX+sp;EF024030;94,12;undetermined;undetermined
+Otu353;Euglyphida;Euglyphidae;Euglypha;Euglypha+tuberculata;AJ418787;91,64;omnivore;testate cell silica
+Otu354;Cryomonadida;Rhogostoma-lineage;Rhogostoma-lineage_X;Rhogostoma-lineage_X+sp;HM628684;94,24;omnivore;testate cell organic
+Otu355;unassigned Imbricatea;Filosa-Imbricatea_XX;Filosa-Imbricatea_XXX;Filosa-Imbricatea_XXX+sp;EF024030;95,36;undetermined;undetermined
+Otu356;Thaumatomonadida;Thaumatomonadida_X;Thaumatomonadida_XX;Thaumatomonadida_XX+sp;KC771165;92,05;undetermined;undetermined
+Otu357;Cryomonadida;Rhogostoma-lineage;Rhogostoma-lineage_X;Rhogostoma-lineage_X+sp;EF023812;95,96;omnivore;testate cell organic
+Otu358;Cercomonadida;Cercomonadidae;Eocercomonas;Eocercomonas+sp;FJ790758;99,38;omnivore;naked amoeboflagellate
+Otu359;Cryomonadida;Rhogostoma-lineage;Rhogostoma;Rhogostoma+schuessleri;HQ121430;98,45;omnivore;testate cell organic
+Otu360;Cercomonadida;Cercomonadidae;Cercomonas;Cercomonas+plasmodialis;AF411268;95,03;omnivore;naked amoeboflagellate
+Otu361;Glissomonadida;Allapsidae;Allapsidae_X;Allapsidae_X+sp;EU709273;96,31;bacterivore;naked flagellate
+Otu362;Glissomonadida;Allapsidae;Viridiraptor;Viridiraptor+invadens;KF207869;96,9;eukaryvore;naked amoeboflagellate
+Otu363;unassigned Granofilosea;Novel-Gran-6;Novel-Gran-6_X;Novel-Gran-6_X+sp;AY620300;96,31;undetermined;undetermined
+Otu364;Glissomonadida;Glissomonadida_X;Glissomonadida_XX;Glissomonadida_XX+sp;JN635482;96,9;undetermined;undetermined
+Otu365;Cercomonadida;Cercomonadidae;Cercomonas;Cercomonas+plasmodialis;AF411268;95,96;omnivore;naked amoeboflagellate
+Otu366;Cercomonadida;Cercomonadidae;Cercomonas;Cercomonas+sp;FJ790757;99,38;omnivore;naked amoeboflagellate
+Otu367;Cercomonadida;Paracercomonadidae;Paracercomonas;Paracercomonas+sp;EF024396;99,69;bacterivore;naked amoeboflagellate
+Otu368;Desmothoracida;Clathrulinidae;Clathrulinidae_X;Clathrulinidae_X+sp;FJ592487;93,77;undetermined;testate cell organic
+Otu369;Glissomonadida;Glissomonadida_X;Glissomonadida_XX;Glissomonadida_XX+sp;JN635482;99,38;undetermined;undetermined
+Otu370;Glissomonadida;Allapsidae;Group-Te;Group_Te+sp;EF024447;97,31;undetermined;undetermined
+Otu371;Euglyphida;Euglyphidae;Euglypha;Euglypha+tuberculata;AJ418787;93,21;omnivore;testate cell silica
+Otu372;Cercomonadida;Cercomonadidae;Cercomonas;Cercomonas+sp;FJ790750;95,43;omnivore;naked amoeboflagellate
+Otu373;Glissomonadida;Allapsidae;Allapsidae_X;Allapsidae_X+sp;EU709273;96,05;bacterivore;naked flagellate
+Otu374;Glissomonadida;Sandonidae;Sandonidae_X;Sandonidae_X+sp;HQ918179;99,52;bacterivore;naked flagellate
+Otu375;Cercomonadida;Cercomonadidae;Eocercomonas;Eocercomonas+sp;AY884316;95,61;omnivore;naked amoeboflagellate
+Otu376;Cercomonadida;Paracercomonadidae;Paracercomonas;Paracercomonas+sp;AM114800;100;bacterivore;naked amoeboflagellate
+Otu377;Glissomonadida;Sandonidae;Sandona;Sandona+aporians;AY965867;94,44;bacterivore;naked flagellate
+Otu378;Glissomonadida;Allapsidae;Allapsidae_X;Allapsidae_X+sp;EU709266;95,69;bacterivore;naked flagellate
+Otu379;Glissomonadida;Sandonidae;Sandonidae_X;Sandonidae_X+sp;HQ121433;98,45;bacterivore;naked flagellate
+Otu380;Glissomonadida;Sandonidae;Sandonidae_X;Sandonidae_X+sp;FJ592291;94,72;bacterivore;naked flagellate
+Otu381;Euglyphida;Euglyphidae;Euglypha;Euglypha+penardi;EF456753;89,23;omnivore;testate cell silica
+Otu382;Euglyphida;Euglyphida_X;Euglyphida_XX;Euglyphida_XX+sp;AY620296;88,65;undetermined;testate cell silica
+Otu383;Glissomonadida;Allapsidae;Allapsidae_X;Allapsidae_X+sp;EU709273;94,48;bacterivore;naked flagellate
+Otu384;Glissomonadida;Allapsidae;Group-Te;Group_Te+sp;EU709245;89,59;undetermined;undetermined
+Otu385;Glissomonadida;Bodomorphidae;Bodomorpha;Bodomorpha+sp;EU647174;97,21;bacterivore;naked flagellate
+Otu386;Euglyphida;Euglyphida_X;Euglyphida_XX;Euglyphida_XX+sp;AY620296;88,99;undetermined;testate cell silica
+Otu387;Plasmodiophorida;S-nasturtii-lineage;Spongospora;Spongospora+sp;EU910610;98,81;plant parasite;endoparasite
+Otu388;Euglyphida;Euglyphidae;Euglypha;Euglypha+tuberculata;AJ418787;91,95;omnivore;testate cell silica
+Otu389;Vampyrellida;op14-lineage;op14-lineage_X;op14-lineage_X+sp;EU567268;95,08;undetermined;undetermined
+Otu390;Glissomonadida;Sandonidae;Sandonidae_X;Sandonidae_X+sp;AM114804;95,98;bacterivore;naked flagellate
+Otu391;Thaumatomonadida;Peregriniidae;Peregrinia;Peregrinia+clavideferens;DQ211593;95,76;bacterivore;testate cell silica
+Otu392;Glissomonadida;Allapsidae;Allapsidae_X;Allapsidae_X+sp;EU709273;91,1;bacterivore;naked flagellate
+Otu393;Glissomonadida;Allapsidae;Allapsidae_X;Allapsidae_X+sp;EU709273;93,58;bacterivore;naked flagellate
+Otu394;Cryomonadida;Rhogostoma-lineage;Rhogostoma-lineage_X;Rhogostoma-lineage_X+sp;EF023812;95,98;omnivore;testate cell organic
+Otu395;Glissomonadida;Sandonidae;Sandonidae_X;Sandonidae_X+sp;AM114804;96,58;bacterivore;naked flagellate
+Otu396;Glissomonadida;Allapsidae;Allapsidae_X;Allapsidae_X+sp;EU709273;92,31;bacterivore;naked flagellate
+Otu397;Cercomonadida;Paracercomonadidae;Paracercomonas;Paracercomonas+sp;AY620298;88,47;bacterivore;naked amoeboflagellate
+Otu398;Glissomonadida;Allapsidae;Allapsidae_X;Allapsidae_X+sp;EU709273;89,67;bacterivore;naked flagellate
+Otu399;Glissomonadida;Allapsidae;Allapsidae_X;Allapsidae_X+sp;EU709273;96,93;bacterivore;naked flagellate
+Otu400;Glissomonadida;Sandonidae;Sandona;Sandona+aporians;AY965867;95,34;bacterivore;naked flagellate
+Otu401;Glissomonadida;Allapsidae;Allapsidae_X;Allapsidae_X+sp;EU709273;97,1;bacterivore;naked flagellate
+Otu402;Glissomonadida;Allapsidae;Allapsidae_X;Allapsidae_X+sp;EU709273;87,92;bacterivore;naked flagellate
+Otu403;Cercomonadida;Cercomonadidae;Cercomonas;Cercomonas+longicauda;DQ442884;97,52;omnivore;naked amoeboflagellate
+Otu404;unassigned Cercozoa;Cercozoa_XXX;Cercozoa_XXXX;Cercozoa_XXXX+sp;KJ925320;92,86;undetermined;undetermined
+Otu405;Cryomonadida;Rhogostoma-lineage;Rhogostoma;Rhogostoma+schuessleri;HQ121430;95,36;omnivore;testate cell organic
+Otu406;Vampyrellida;Penardia-lineage;Penardia-lineage_X;Penardia-lineage_X+sp;AF372744;90,91;undetermined;undetermined
+Otu407;Euglyphida;Euglyphidae;Euglypha;Euglypha+tuberculata;AJ418787;92,57;omnivore;testate cell silica
+Otu408;Tectofilosida;Pseudodifflugiidae;Pseudodifflugia;Pseudodifflugia+gracilis;AJ418794;99,02;eukaryvore;testate cell organic
+Otu409;Cercomonadida;Cercomonadidae;Eocercomonas;Eocercomonas+sp;FJ790758;94,84;omnivore;naked amoeboflagellate
+Otu410;Glissomonadida;Sandonidae;Sandonidae_X;Sandonidae_X+sp;AM114804;97,21;bacterivore;naked flagellate
+Otu411;Euglyphida;Euglyphidae;Sphenoderia;Sphenoderia+pseudominuta;KF539408;92,05;omnivore;testate cell silica
+Otu412;Glissomonadida;Allapsidae;Allapsidae_X;Allapsidae_X+sp;EU709273;90,73;bacterivore;naked flagellate
+Otu413;Glissomonadida;Allapsidae;Allapsidae_X;Allapsidae_X+sp;EU709273;96,62;bacterivore;naked flagellate
+Otu414;Euglyphida;Euglyphidae;Euglypha;Euglypha+penardi;EF456753;96,17;omnivore;testate cell silica
+Otu415;Glissomonadida;Allapsidae;Allapsidae_X;Allapsidae_X+sp;EU709273;88,66;bacterivore;naked flagellate
+Otu416;unassigned Cercozoa;Cercozoa_XXX;Cercozoa_XXXX;Cercozoa_XXXX+sp;AY620297;95,43;undetermined;undetermined
+Otu417;Glissomonadida;Sandonidae;Flectomonas;Flectomonas+ekelundi;HM536169;96,89;bacterivore;naked flagellate
+Otu418;Glissomonadida;Allapsidae;Allapsidae_X;Allapsidae_X+sp;EU709266;93,25;bacterivore;naked flagellate
+Otu419;Cercomonadida;Cercomonadidae;Cercomonas;Cercomonas+plasmodialis;AF411268;95,96;omnivore;naked amoeboflagellate
+Otu420;Glissomonadida;Allapsidae;Allapsidae_X;Allapsidae_X+sp;EU709273;92,68;bacterivore;naked flagellate
+Otu421;Cercomonadida;Paracercomonadidae;Paracercomonas;Paracercomonas+sp;AY620298;88,47;bacterivore;naked amoeboflagellate
+Otu422;Cryomonadida;Rhogostoma-lineage;Rhogostoma-lineage_X;Rhogostoma-lineage_X+sp;HM628684;89,51;omnivore;testate cell organic
+Otu423;Cercomonadida;Paracercomonadidae;Paracercomonas;Paracercomonas+compacta;FJ790723;88,75;bacterivore;naked amoeboflagellate
+Otu424;Glissomonadida;Allapsidae;Allapsidae_X;Allapsidae_X+sp;EU709273;87,8;bacterivore;naked flagellate
+Otu425;Cercomonadida;Cercomonadidae;Cercomonas;Cercomonas+sp;AY884333;95,44;omnivore;naked amoeboflagellate
+Otu426;Cercomonadida;Cercomonadidae;Cercomonas;Cercomonas+longicauda;DQ442884;94,46;omnivore;naked amoeboflagellate
+Otu427;Glissomonadida;Allapsidae;Teretomonas;Teretomonas+rotunda;EU709247;92,86;bacterivore;naked flagellate
+Otu428;Cercomonadida;Cercomonadidae;Cercomonas;Cercomonas+longicauda;DQ442884;98,45;omnivore;naked amoeboflagellate
+Otu429;Glissomonadida;Sandonidae;Bodomorpha;Bodomorpha+sp;HM536172;93,83;bacterivore;naked flagellate
+Otu430;Cercomonadida;Cercomonadidae;Cercomonas;Cercomonas+sp;FJ790705;86,45;omnivore;naked amoeboflagellate
+Otu431;Glissomonadida;Sandonidae;Sandonidae_X;Sandonidae_X+sp;AM114804;89,63;bacterivore;naked flagellate
+Otu432;Glissomonadida;Allapsidae;Allapsidae_X;Allapsidae_X+sp;EU709273;93,23;bacterivore;naked flagellate
+Otu433;Glissomonadida;Glissomonadida_X;Glissomonadida_XX;Glissomonadida_XX+sp;KC672643;88,48;undetermined;undetermined
+Otu434;Glissomonadida;Sandonidae;Sandonidae_X;Sandonidae_X+sp;AM114804;97,21;bacterivore;naked flagellate
+Otu435;Glissomonadida;Allapsidae;Allapsidae_X;Allapsidae_X+sp;EU709273;92,94;bacterivore;naked flagellate
+Otu436;Glissomonadida;Sandonidae;Sandona;Sandona+aporians;AY965867;94,74;bacterivore;naked flagellate
+Otu437;Cryomonadida;Rhogostoma-lineage;Rhogostoma-lineage_X;Rhogostoma-lineage_X+sp;EF023812;95,05;omnivore;testate cell organic
+Otu438;Spongomonadida;Spongomonadidae;Spongomonas;Spongomonas+minima;AF411281;99,03;bacterivore;naked flagellate
+Otu439;Vampyrellida;Leptophryidae;Kumanoa;Kumanoa+intorta;KC511080;89,41;eukaryvore;naked amoeba
+Otu440;Limnofilida;Limnofilidae;Limnofila;Limnofila+anglica;EU567255;97,85;bacterivore;naked amoeboflagellate
+Otu441;Cryomonadida;Rhogostoma-lineage;Rhogostoma-lineage_X;Rhogostoma-lineage_X+sp;EF023812;96,3;omnivore;testate cell organic
+Otu442;Euglyphida;Euglyphidae;Euglypha;Euglypha+tuberculata;AJ418787;92,28;omnivore;testate cell silica
+Otu443;Glissomonadida;Allapsidae;Allapsidae_X;Allapsidae_X+sp;EF023289;91,38;bacterivore;naked flagellate
+Otu444;Glissomonadida;Allapsidae;Allapsidae_X;Allapsidae_X+sp;AB695526;93,14;bacterivore;naked flagellate
+Otu445;Glissomonadida;Sandonidae;Sandonidae_X;Sandonidae_X+sp;FJ592291;96,58;bacterivore;naked flagellate
+Otu446;Cercomonadida;Paracercomonadidae;Paracercomonas;Paracercomonas+sp;FJ790726;94,66;bacterivore;naked amoeboflagellate
+Otu447;Limnofilida;Limnofilidae;Limnofila;Limnofila+longa;EU567254;89,03;bacterivore;naked amoeboflagellate
+Otu448;unassigned Imbricatea;Novel-clade-2;Novel-clade-2_X;Novel-clade-2_X+sp;AB275098;91,12;undetermined;undetermined
+Otu449;Cercomonadida;Cercomonadidae;Cercomonas;Cercomonas+longicauda;DQ442884;95,99;omnivore;naked amoeboflagellate
+Otu450;Glissomonadida;Allapsidae;Allapsidae_X;Allapsidae_X+sp;EU709273;96,62;bacterivore;naked flagellate
+Otu451;Glissomonadida;Sandonidae;Sandonidae_X;Sandonidae_X+sp;KC672568;93,66;bacterivore;naked flagellate
+Otu452;Glissomonadida;Glissomonadida_X;Glissomonadida_XX;Glissomonadida_XX+sp;EU709274;91,44;undetermined;undetermined
+Otu453;Thaumatomonadida;Thaumatomonadida_X;Thaumatomonadida_XX;Thaumatomonadida_XX+sp;AY620310;88,61;undetermined;undetermined
+Otu454;Glissomonadida;Glissomonadida_X;Glissomonadida_XX;Glissomonadida_XX+sp;KC672643;93,01;undetermined;undetermined
+Otu455;Cercomonadida;Cercomonadidae;Cercomonadidae_X;Cercomonadidae_X+sp;FJ790739;91,47;undetermined;undetermined
+Otu456;unassigned Granofilosea;Novel-Gran-6;Novel-Gran-6_X;Novel-Gran-6_X+sp;EU798716;96,62;undetermined;undetermined
+Otu457;Spongomonadida;Spongomonadidae;Spongomonas;Spongomonas+minima;AF411281;92,28;bacterivore;naked flagellate
+Otu458;Glissomonadida;Allapsidae;Allapsidae_X;Allapsidae_X+sp;EU709273;88,52;bacterivore;naked flagellate
+Otu459;Plasmodiophorida;Plasmodiophoridae;Plasmodiophora;Plasmodiophora+brassicae;AB526843;90,32;plant parasite;endoparasite
+Otu460;Cryomonadida;Rhogostoma-lineage;Rhogostoma-lineage_X;Rhogostoma-lineage_X+sp;HM628684;100;omnivore;testate cell organic
+Otu461;Cercomonadida;Cercomonadidae;Cercomonas;Cercomonas+sp;FJ790751;94,72;omnivore;naked amoeboflagellate
+Otu462;Cercomonadida;Cercomonadidae;Cercomonas;Cercomonas+celer;FJ790710;94,41;omnivore;naked amoeboflagellate
+Otu463;Glissomonadida;Allapsidae;Allapsidae_X;Allapsidae_X+sp;EU709273;94,23;bacterivore;naked flagellate
+Otu464;Cercomonadida;Paracercomonadidae;Paracercomonas;Paracercomonas+sp;HM536155;85,09;bacterivore;naked amoeboflagellate
+Otu465;Glissomonadida;Sandonidae;Sandona;Sandona+aporians;AY965867;94,1;bacterivore;naked flagellate
+Otu466;Glissomonadida;Sandonidae;Sandonidae_X;Sandonidae_X+sp;HQ121433;93,56;bacterivore;naked flagellate
+Otu467;Cercomonadida;Paracercomonadidae;Paracercomonas;Paracercomonas+sp;AM114800;87,38;bacterivore;naked amoeboflagellate
+Otu468;Cercomonadida;Cercomonadidae;Cercomonas;Cercomonas+sp;HM536148;95,69;omnivore;naked amoeboflagellate
+Otu469;Glissomonadida;Sandonidae;Sandona;Sandona+sp;EU709165;95,26;bacterivore;naked flagellate
+Otu470;Cryomonadida;Rhogostoma-lineage;Rhogostoma-lineage_X;Rhogostoma-lineage_X+sp;HM628684;92,26;omnivore;testate cell organic
+Otu471;Glissomonadida;Sandonidae;Bodomorpha;Bodomorpha+sp;HM536172;94,41;bacterivore;naked flagellate
+Otu472;Thaumatomonadida;Thaumatomonadidae;Thaumatomonas;Thaumatomonas+sp;EF023813;98,1;bacterivore;testate cell silica
+Otu473;Glissomonadida;Sandonidae;Mollimonas;Mollimonas+vickermani;HQ918173;95,06;bacterivore;naked flagellate
+Otu474;Glissomonadida;Allapsidae;Allapsidae_X;Allapsidae_X+sp;EU709273;93,85;bacterivore;naked flagellate
+Otu475;unassigned Granofilosea;Novel-Gran-6;Novel-Gran-6_X;Novel-Gran-6_X+sp;EF024169;100;undetermined;undetermined
+Otu476;Glissomonadida;Sandonidae;Sandonidae_X;Sandonidae_X+sp;KC672568;95,77;bacterivore;naked flagellate
+Otu477;Glissomonadida;Sandonidae;Bodomorpha;Bodomorpha+sp;HM536172;96,38;bacterivore;naked flagellate
+Otu478;Glissomonadida;Glissomonadida_X;Glissomonadida_XX;Glissomonadida_XX+sp;KC672643;95,72;undetermined;undetermined
+Otu479;Glissomonadida;Allapsidae;Allapsidae_X;Allapsidae_X+sp;EU709273;91,52;bacterivore;naked flagellate
+Otu480;Glissomonadida;Allapsidae;Allapsidae_X;Allapsidae_X+sp;EU709273;93,33;bacterivore;naked flagellate
+Otu481;Glissomonadida;Allapsidae;Allapsidae_X;Allapsidae_X+sp;AB695472;91,05;bacterivore;naked flagellate
+Otu482;Cercomonadida;Cercomonadidae;Cercomonas;Cercomonas+plasmodialis;AF411268;94,41;omnivore;naked amoeboflagellate
+Otu483;Limnofilida;Limnofilidae;Limnofilidae_X;Limnofilidae_X+sp;EU567240;91,35;bacterivore;naked amoeboflagellate
+Otu484;Cercomonadida;Paracercomonadidae;Paracercomonas;Paracercomonas+compacta;FJ790723;100;bacterivore;naked amoeboflagellate
+Otu485;Glissomonadida;Glissomonadida_X;Glissomonadida_XX;Glissomonadida_XX+sp;AY082974;88,1;undetermined;undetermined
+Otu486;Glissomonadida;Sandonidae;Sandonidae_X;Sandonidae_X+sp;EU709225;99,05;bacterivore;naked flagellate
+Otu487;Glissomonadida;Sandonidae;Sandona;Sandona+sp;AM114805;95,24;bacterivore;naked flagellate
+Otu488;Glissomonadida;Sandonidae;Sandonidae_X;Sandonidae_X+sp;EU709135;94,93;bacterivore;naked flagellate
+Otu489;Glissomonadida;Allapsidae;Allapsidae_X;Allapsidae_X+sp;EU709273;94,8;bacterivore;naked flagellate
+Otu490;Glissomonadida;Glissomonadida_X;Glissomonadida_XX;Glissomonadida_XX+sp;AB695519;96,28;undetermined;undetermined
+Otu491;Ebriida;TAGIRI1-lineage;TAGIRI1-lineage_X;TAGIRI1-lineage_X+sp;KC488594;90,99;undetermined;undetermined
+Otu492;Glissomonadida;Sandonidae;Sandona;Sandona+sp;AM114805;92,38;bacterivore;naked flagellate
+Otu493;Tectofilosida;Pseudodifflugiidae;Pseudodifflugiidae_X;Pseudodifflugiidae_X+sp;JN090862;88,15;eukaryvore;testate cell organic
+Otu494;Novel-clade-9;Novel-clade-9_X;Novel-clade-9_XX;Novel-clade-9_XX+sp;EU567272;88,02;undetermined;undetermined
+Otu495;Glissomonadida;Allapsidae;Allapsidae_X;Allapsidae_X+sp;EU709273;99,08;bacterivore;naked flagellate
+Otu496;Glissomonadida;Glissomonadida_X;Glissomonadida_XX;Glissomonadida_XX+sp;KC672643;93,3;undetermined;undetermined
+Otu497;Vampyrellida;Vampyrellida_X;Thalassomyxa;Thalassomyxa+sp;KC779515;95,64;eukaryvore;naked amoeba
+Otu498;Cercomonadida;Paracercomonadidae;Paracercomonas;Paracercomonas+sp;EF024396;95,62;bacterivore;naked amoeboflagellate
+Otu499;Glissomonadida;Glissomonadida_X;Glissomonadida_XX;Glissomonadida_XX+sp;AB695519;96,59;undetermined;undetermined
+Otu500;Glissomonadida;Sandonidae;Sandonidae_X;Sandonidae_X+sp;AM114804;89,33;bacterivore;naked flagellate
+Otu501;Cryomonadida;Rhogostoma-lineage;Rhogostoma-lineage_X;Rhogostoma-lineage_X+sp;EF023810;90,29;omnivore;testate cell organic
+Otu502;Cryomonadida;Rhogostoma-lineage;Rhogostoma-lineage_X;Rhogostoma-lineage_X+sp;EF023810;91,33;omnivore;testate cell organic
+Otu503;Glissomonadida;Allapsidae;Allapsidae_X;Allapsidae_X+sp;EU709266;96,92;bacterivore;naked flagellate
+Otu504;Cercomonadida;Cercomonadidae;Cavernomonas;Cavernomonas+mira;FJ790718;91,46;bacterivore;naked flagellate
+Otu505;Glissomonadida;Allapsidae;Allapsidae_X;Allapsidae_X+sp;AB695472;91,33;bacterivore;naked flagellate
+Otu506;Glissomonadida;Allapsidae;Allapsidae_X;Allapsidae_X+sp;EU709273;92,62;bacterivore;naked flagellate
+Otu507;Cercomonadida;Paracercomonadidae;Paracercomonas;Paracercomonas+virgaria;AY884340;91,51;bacterivore;naked amoeboflagellate
+Otu508;Glissomonadida;Allapsidae;Allapsidae_X;Allapsidae_X+sp;KC306595;95,33;bacterivore;naked flagellate
+Otu509;Glissomonadida;Glissomonadida_X;Glissomonadida_XX;Glissomonadida_XX+sp;AB695519;96,9;undetermined;undetermined
+Otu510;Novel-clade-12;NC12A-lineage;NC12A-lineage_X;NC12A-lineage_X+sp;AY821947;95,45;undetermined;undetermined
+Otu511;Cercomonadida;Cercomonadidae;Cercomonas;Cercomonas+sp;FJ790756;94,51;omnivore;naked amoeboflagellate
+Otu512;Euglyphida;Euglyphidae;Assulina;Assulina+muscorum;AJ418791;97,12;omnivore;testate cell silica
+Otu513;Glissomonadida;Glissomonadida_X;Glissomonadida_XX;Glissomonadida_XX+sp;AB695519;95,41;undetermined;undetermined
+Otu514;Glissomonadida;Sandonidae;Sandona;Sandona+aporians;AY965867;88,19;bacterivore;naked flagellate
+Otu515;unassigned Cercozoa;Cercozoa_XXX;Cercozoa_XXXX;Cercozoa_XXXX+sp;KJ925320;88,58;undetermined;undetermined
+Otu516;Limnofilida;Limnofilidae;Limnofilidae_X;Limnofilidae_X+sp;KC306541;91,54;bacterivore;naked amoeboflagellate
+Otu517;Glissomonadida;Sandonidae;Sandonidae_X;Sandonidae_X+sp;FJ592291;96,89;bacterivore;naked flagellate
+Otu518;Euglyphida;Euglyphida_X;Euglyphida_XX;Euglyphida_XX+sp;KF219445;88,64;undetermined;testate cell silica
+Otu519;Ebriida;TAGIRI1-lineage;TAGIRI1-lineage_X;TAGIRI1-lineage_X+sp;AB275053;89,26;undetermined;undetermined
+Otu520;Euglyphida;Trinematidae;Trinematidae_X;Trinematidae_X+sp;EF024880;100;omnivore;testate cell silica
+Otu521;Glissomonadida;Glissomonadida_X;Glissomonadida_XX;Glissomonadida_XX+sp;KC672643;90,8;undetermined;undetermined
+Otu522;Glissomonadida;Glissomonadida_X;Glissomonadida_XX;Glissomonadida_XX+sp;KC672643;94,82;undetermined;undetermined
+Otu523;Cercomonadida;Cercomonadidae;Eocercomonas;Eocercomonas+sp;HM536153;100;omnivore;naked amoeboflagellate
+Otu524;Limnofilida;Limnofilidae;Limnofila;Limnofila+longa;EU567254;87,15;bacterivore;naked amoeboflagellate
+Otu525;Glissomonadida;Sandonidae;Sandonidae_X;Sandonidae_X+sp;HQ918179;100;bacterivore;naked flagellate
+Otu526;Cercomonadida;Cercomonadidae;Cercomonas;Cercomonas+longicauda;DQ442884;97,23;omnivore;naked amoeboflagellate
+Otu527;Euglyphida;Trinematidae;Trinematidae_X;Trinematidae_X+sp;EF024880;94,17;omnivore;testate cell silica
+Otu528;Cryomonadida;Rhogostoma-lineage;Rhogostoma-lineage_X;Rhogostoma-lineage_X+sp;EF023810;99,05;omnivore;testate cell organic
+Otu529;Glissomonadida;Sandonidae;Sandonidae_X;Sandonidae_X+sp;FJ592291;93,52;bacterivore;naked flagellate
+Otu530;Spongomonadida;Spongomonadidae;Spongomonadidae_X;Spongomonadidae_X+sp;AF372740;98,13;bacterivore;naked flagellate
+Otu531;unassigned Cercozoa;Cercozoa_XXX;Cercozoa_XXXX;Cercozoa_XXXX+sp;DQ244001;90;undetermined;undetermined
+Otu532;Glissomonadida;Allapsidae;Allapsidae_X;Allapsidae_X+sp;EF024879;98,44;bacterivore;naked flagellate
+Otu533;Euglyphida;Euglyphidae;Assulina;Assulina+muscorum;AJ418791;90,74;omnivore;testate cell silica
+Otu534;Glissomonadida;Allapsidae;Allapsidae_X;Allapsidae_X+sp;AB695526;91,9;bacterivore;naked flagellate
+Otu535;Cercomonadida;Cercomonadidae;Eocercomonas;Eocercomonas+sp;HM536152;90,91;omnivore;naked amoeboflagellate
+Otu536;Cercomonadida;Cercomonadidae;Cercomonas;Cercomonas+zhukovi;FJ790683;98,15;omnivore;naked amoeboflagellate
+Otu537;Glissomonadida;Allapsidae;Allapsidae_X;Allapsidae_X+sp;EU709273;84,34;bacterivore;naked flagellate
+Otu538;Cercomonadida;Paracercomonadidae;Paracercomonas;Paracercomonas+sp;FJ790726;98,03;bacterivore;naked amoeboflagellate
+Otu539;unassigned Granofilosea;Novel-Gran-5;Novel-Gran-5_X;Novel-Gran-5_X+sp;EF032802;98,77;undetermined;undetermined
+Otu540;Cercomonadida;Paracercomonadidae;Paracercomonas;Paracercomonas+sp;FJ790726;99,69;bacterivore;naked amoeboflagellate
+Otu541;Glissomonadida;Sandonidae;Sandonidae_X;Sandonidae_X+sp;KC672587;95,67;bacterivore;naked flagellate
+Otu542;Thaumatomonadida;Thaumatomonadida_X;Thaumatomonadida_XX;Thaumatomonadida_XX+sp;AY620310;92,28;undetermined;undetermined
+Otu543;Glissomonadida;Sandonidae;Sandonidae_X;Sandonidae_X+sp;FJ592291;90,37;bacterivore;naked flagellate
+Otu544;Cryomonadida;Rhogostoma-lineage;Rhogostoma;Rhogostoma+schuessleri;HQ121430;92,28;omnivore;testate cell organic
+Otu545;Glissomonadida;Allapsidae;Allapsidae_X;Allapsidae_X+sp;EU709273;93,25;bacterivore;naked flagellate
+Otu546;Cercomonadida;Paracercomonadidae;Nucleocercomonas;Nucleocercomonas+praelonga;HM536166;88,11;bacterivore;naked amoeboflagellate
+Otu547;Glissomonadida;Allapsidae;Allapsidae_X;Allapsidae_X+sp;EU709266;95,08;bacterivore;naked flagellate
+Otu548;Glissomonadida;Clade-Y;Clade-Y_X;Clade-Y_X+sp;EU709260;97,52;undetermined;undetermined
+Otu549;Cryomonadida;Protaspa-lineage;Protaspa-lineage_X;Protaspa-lineage_X+sp;AY426945;84,15;eukaryvore;testate cell organic
+Otu550;Glissomonadida;Glissomonadida_X;Glissomonadida_XX;Glissomonadida_XX+sp;KC672643;88,15;undetermined;undetermined
+Otu551;Glissomonadida;Allapsidae;Allapsidae_X;Allapsidae_X+sp;EU709273;92,92;bacterivore;naked flagellate
+Otu552;Cercomonadida;Paracercomonadidae;Paracercomonas;Paracercomonas+sp;EF024396;94,06;bacterivore;naked amoeboflagellate
+Otu553;Cercomonadida;Cercomonadidae;Eocercomonas;Eocercomonas+sp;HM536154;92,86;omnivore;naked amoeboflagellate
+Otu554;Glissomonadida;Allapsidae;Viridiraptor;Viridiraptor+invadens;KF207869;98,45;eukaryvore;naked amoeboflagellate
+Otu555;Spongomonadida;Spongomonadidae;Spongomonas;Spongomonas+minima;AF411281;95,99;bacterivore;naked flagellate
+Otu556;Cryomonadida;Rhogostoma-lineage;Rhogostoma-lineage_X;Rhogostoma-lineage_X+sp;EF023810;93,85;omnivore;testate cell organic
+Otu557;unassigned Filosa;Filosa_XX;Filosa_XXX;Filosa_XXX+sp;AB534506;100;undetermined;undetermined
+Otu558;Spongomonadida;Spongomonadidae;Spongomonadidae_X;Spongomonadidae_X+sp;AF372740;95,07;bacterivore;naked flagellate
+Otu559;unassigned Cercozoa;Cercozoa_XXX;Cercozoa_XXXX;Cercozoa_XXXX+sp;KJ925320;91,51;undetermined;undetermined
+Otu560;Cercomonadida;Paracercomonadidae;Metabolomonas;Metabolomonas+insania;HM536167;100;bacterivore;naked amoeboflagellate
+Otu561;Tectofilosida;Pseudodifflugiidae;Pseudodifflugiidae_X;Pseudodifflugiidae_X+sp;GU479953;90,75;eukaryvore;testate cell organic
+Otu562;Cercomonadida;Cercomonadidae;Cercomonas;Cercomonas+plasmodialis;AF411268;89,75;omnivore;naked amoeboflagellate
+Otu563;Spongomonadida;Spongomonadidae;Spongomonadidae_X;Spongomonadidae_X+sp;AF372740;92,9;bacterivore;naked flagellate
+Otu564;Glissomonadida;Sandonidae;Sandonidae_X;Sandonidae_X+sp;AM114804;93,56;bacterivore;naked flagellate
+Otu565;Glissomonadida;Allapsidae;Allapsidae_X;Allapsidae_X+sp;EF023715;89,57;bacterivore;naked flagellate
+Otu566;Vampyrellida;Leptophryidae;Cercozoa;Cercozoa+sp;KF141791;89,34;undetermined;undetermined
+Otu567;Glissomonadida;Allapsidae;Allapsidae_X;Allapsidae_X+sp;KC306595;93,87;bacterivore;naked flagellate
+Otu568;Plasmodiophorida;S-nasturtii-lineage;Spongospora;Spongospora+sp;EU910610;95,54;plant parasite;endoparasite
+Otu569;unassigned Granofilosea;Novel-Gran-6;Novel-Gran-6_X;Novel-Gran-6_X+sp;EU567236;97,25;undetermined;undetermined
+Otu570;Desmothoracida;Clathrulinidae;Clathrulinidae_X;Clathrulinidae_X+sp;FJ592487;91,9;undetermined;testate cell organic
+Otu571;unassigned Cercozoa;Cercozoa_XXX;Cercozoa_XXXX;Cercozoa_XXXX+sp;AY620297;95,41;undetermined;undetermined
+Otu572;Glissomonadida;Allapsidae;Allapsidae_X;Allapsidae_X+sp;AB695472;92,57;bacterivore;naked flagellate
+Otu573;Cercomonadida;Paracercomonadidae;Paracercomonas;Paracercomonas+filosa;FJ790722;92,86;bacterivore;naked amoeboflagellate
+Otu574;Euglyphida;Euglyphidae;Assulina;Assulina+muscorum;AJ418791;96,33;omnivore;testate cell silica
+Otu575;Cryomonadida;Rhogostoma-lineage;Rhogostoma-lineage_X;Rhogostoma-lineage_X+sp;EF023810;92,88;omnivore;testate cell organic
+Otu576;Cercomonadida;Paracercomonadidae;Paracercomonas;Paracercomonas+sp;AY360709;90,09;bacterivore;naked amoeboflagellate
+Otu577;Glissomonadida;Allapsidae;Allapsidae_X;Allapsidae_X+sp;EU709273;92,33;bacterivore;naked flagellate
+Otu578;Limnofilida;Limnofilidae;Limnofilidae_X;Limnofilidae_X+sp;EU567238;94,77;bacterivore;naked amoeboflagellate
+Otu579;unassigned Cercozoa;Cercozoa_XXX;Cercozoa_XXXX;Cercozoa_XXXX+sp;AY620297;93,58;undetermined;undetermined
+Otu580;Euglyphida;Euglyphidae;Euglypha;Euglypha+tuberculata;AJ418787;95,67;omnivore;testate cell silica
+Otu581;Cercomonadida;Paracercomonadidae;Paracercomonas;Paracercomonas+sp;FJ790726;90,28;bacterivore;naked amoeboflagellate
+Otu582;Glissomonadida;Sandonidae;Sandonidae_X;Sandonidae_X+sp;AM114804;95,98;bacterivore;naked flagellate
+Otu583;Glissomonadida;Sandonidae;Sandona;Sandona+aporians;AY965867;95,34;bacterivore;naked flagellate
+Otu584;Glissomonadida;Allapsidae;Allapsidae_X;Allapsidae_X+sp;EU709273;94,77;bacterivore;naked flagellate
+Otu585;Glissomonadida;Allapsidae;Allapsidae_X;Allapsidae_X+sp;EU709273;91,79;bacterivore;naked flagellate
+Otu586;Vampyrellida;Thalassomyxa-lineage;Thalassomyxa-lineage_X;Thalassomyxa-lineage_X+sp;EU910603;89,89;eukaryvore;naked amoeba
+Otu587;Glissomonadida;Allapsidae;Allapsidae_X;Allapsidae_X+sp;EU709273;90,91;bacterivore;naked flagellate
+Otu588;Glissomonadida;Allapsidae;Allapsidae_X;Allapsidae_X+sp;EU709273;94,09;bacterivore;naked flagellate
+Otu589;Euglyphida;Euglyphidae;Sphenoderia;Sphenoderia+pseudominuta;KF539408;98,6;omnivore;testate cell silica
+Otu590;Cryomonadida;Rhogostoma-lineage;Rhogostoma-lineage_X;Rhogostoma-lineage_X+sp;HM628684;94,21;omnivore;testate cell organic
+Otu591;Limnofilida;Limnofilidae;Limnofila;Limnofila+anglica;EU567255;92,35;bacterivore;naked amoeboflagellate
+Otu592;Cercomonadida;Paracercomonadidae;Metabolomonas;Metabolomonas+insania;HM536167;94,98;bacterivore;naked amoeboflagellate
+Otu593;Glissomonadida;Glissomonadida_X;Glissomonadida_XX;Glissomonadida_XX+sp;AB695519;96,9;undetermined;undetermined
+Otu594;Cercomonadida;Paracercomonadidae;Paracercomonas;Paracercomonas+virgaria;AY884340;87,77;bacterivore;naked amoeboflagellate
+Otu595;Cercomonadida;Paracercomonadidae;Paracercomonas;Paracercomonas+virgaria;AY884340;89,41;bacterivore;naked amoeboflagellate
+Otu596;Cercomonadida;Cercomonadidae;Cercomonas;Cercomonas+sp;FJ790705;100;omnivore;naked amoeboflagellate
+Otu597;Glissomonadida;Sandonidae;Sandonidae_X;Sandonidae_X+sp;HQ121433;89,06;bacterivore;naked flagellate
+Otu598;unassigned Thecofilosea;Filosa-Thecofilosea_XX;Filosa-Thecofilosea_XXX;Filosa-Thecofilosea_XXX+sp;FJ153693;91,67;undetermined;undetermined
+Otu599;unassigned Imbricatea;Filosa-Imbricatea_XX;Filosa-Imbricatea_XXX;Filosa-Imbricatea_XXX+sp;EF024030;99,69;undetermined;undetermined
+Otu600;Tectofilosida;Pseudodifflugiidae;Pseudodifflugiidae_X;Pseudodifflugiidae_X+sp;HQ696567;87,42;eukaryvore;testate cell organic
+Otu601;Glissomonadida;Sandonidae;Bodomorpha;Bodomorpha+sp;HM536172;91,3;bacterivore;naked flagellate
+Otu602;unassigned Cercozoa;Cercozoa_XXX;Cercozoa_XXXX;Cercozoa_XXXX+sp;AY620297;97,22;undetermined;undetermined
+Otu603;Cryomonadida;Protaspa-lineage;Protaspa-lineage_X;Protaspa-lineage_X+sp._strain16;FN690411;96,7;eukaryvore;testate cell organic
+Otu604;Glissomonadida;Allapsidae;Group-Te;Group_Te+sp;EU709246;91,05;undetermined;undetermined
+Otu605;Vampyrellida;Leptophryidae;Platyreta;Platyreta+germanica;AY941201;87,62;eukaryvore;naked amoeba
+Otu606;Glissomonadida;Allapsidae;Allapsidae_X;Allapsidae_X+sp;EF023715;95,37;bacterivore;naked flagellate
+Otu607;Cryomonadida;Protaspa-lineage;Protaspa-lineage_X;Protaspa-lineage_X+sp;AY426945;88,92;eukaryvore;testate cell organic
+Otu608;Glissomonadida;Sandonidae;Sandonidae_X;Sandonidae_X+sp;HQ918179;96,28;bacterivore;naked flagellate
+Otu609;Limnofilida;Limnofilidae;Limnofilidae_X;Limnofilidae_X+sp;EU567246;98,77;bacterivore;naked amoeboflagellate
+Otu610;Glissomonadida;Sandonidae;Sandonidae_X;Sandonidae_X+sp;HQ918179;100;bacterivore;naked flagellate
+Otu611;Glissomonadida;Allapsidae;Allapsidae_X;Allapsidae_X+sp;EU709273;86,87;bacterivore;naked flagellate
+Otu612;Glissomonadida;Sandonidae;Sandonidae_X;Sandonidae_X+sp;AM114804;95,36;bacterivore;naked flagellate
+Otu613;Glissomonadida;Allapsidae;Allapsidae_X;Allapsidae_X+sp;EU709273;92,66;bacterivore;naked flagellate
+Otu614;Vampyrellida;Penardia-lineage;Penardia-lineage_X;Penardia-lineage_X+sp;AF372744;88,48;undetermined;undetermined
+Otu615;unassigned Granofilosea;Novel-Gran-6;Novel-Gran-6_X;Novel-Gran-6_X+sp;AY620300;94,79;undetermined;undetermined
+Otu616;Glissomonadida;Glissomonadida_X;Glissomonadida_XX;Glissomonadida_XX+sp;KC672643;87,88;undetermined;undetermined
+Otu617;Euglyphida;Euglyphidae;Euglypha;Euglypha+tuberculata;AJ418787;89,54;omnivore;testate cell silica
+Otu618;Glissomonadida;Sandonidae;Sandonidae_X;Sandonidae_X+sp;FJ592291;93,48;bacterivore;naked flagellate
+Otu619;Cercomonadida;Cercomonadidae;Cercomonas;Cercomonas+sp;FJ790756;98,78;omnivore;naked amoeboflagellate
+Otu620;Euglyphida;Euglyphidae;Euglypha;Euglypha+tuberculata;AJ418787;91,67;omnivore;testate cell silica
+Otu621;Glissomonadida;Glissomonadida_X;Glissomonadida_XX;Glissomonadida_XX+sp;KC672643;86,06;undetermined;undetermined
+Otu622;Glissomonadida;Allapsidae;Allapsidae_X;Allapsidae_X+sp;EU709273;87,16;bacterivore;naked flagellate
+Otu623;Cercomonadida;Cercomonadidae;Cercomonas;Cercomonas+plasmodialis;AF411268;91,64;omnivore;naked amoeboflagellate
+Otu624;Glissomonadida;Sandonidae;Bodomorpha;Bodomorpha+sp;HM536170;95,39;bacterivore;naked flagellate
+Otu625;Glissomonadida;Allapsidae;Allapsidae_X;Allapsidae_X+sp;EU709273;95,69;bacterivore;naked flagellate
+Otu626;Cercomonadida;Cercomonadidae;Cercomonas;Cercomonas+plasmodialis;AF411268;95,96;omnivore;naked amoeboflagellate
+Otu627;Thaumatomonadida;Thaumatomonadidae;Thaumatomonas;Thaumatomonas+sp;EF023813;90,43;bacterivore;testate cell silica
+Otu628;Spongomonadida;Spongomonadidae;Spongomonas;Spongomonas+minima;AF411281;93,23;bacterivore;naked flagellate
+Otu629;Glissomonadida;Allapsidae;Allapsidae_X;Allapsidae_X+sp;EF023715;89,05;bacterivore;naked flagellate
+Otu630;Euglyphida;Euglyphida_X;Euglyphida_XX;Euglyphida_XX+sp;AY620296;91,98;undetermined;testate cell silica
+Otu631;Glissomonadida;Allapsidae;Allapsidae_X;Allapsidae_X+sp;EU709273;95,09;bacterivore;naked flagellate
+Otu632;Glissomonadida;Sandonidae;Sandona;Sandona+octamutans;HQ918176;97,52;bacterivore;naked flagellate
+Otu633;Glissomonadida;Sandonidae;Bodomorpha;Bodomorpha+sp;HM536172;92,97;bacterivore;naked flagellate
+Otu634;Glissomonadida;Sandonidae;Sandonidae_X;Sandonidae_X+sp;FJ592291;96,58;bacterivore;naked flagellate
+Otu635;Cryomonadida;Rhogostoma-lineage;Rhogostoma-lineage_X;Rhogostoma-lineage_X+sp;HM628684;98,14;omnivore;testate cell organic
+Otu636;Glissomonadida;Allapsidae;Allapsidae_X;Allapsidae_X+sp;EU709273;92,07;bacterivore;naked flagellate
+Otu637;Cryomonadida;Protaspa-lineage;Protaspa;Protaspa+sp;FJ824123;92,83;eukaryvore;testate cell organic
+Otu638;Cercomonadida;Cercomonadidae;Cercomonas;Cercomonas+sp;EF024080;96,25;omnivore;naked amoeboflagellate
+Otu639;Cercomonadida;Cercomonadidae;Cercomonas;Cercomonas+sp;KF219358;93,84;omnivore;naked amoeboflagellate
+Otu640;Cercomonadida;Cercomonadidae;Cercomonas;Cercomonas+sp;EF024850;100;omnivore;naked amoeboflagellate
+Otu641;Cercomonadida;Cercomonadidae;Cercomonas;Cercomonas+sp;EF024028;96,33;omnivore;naked amoeboflagellate
+Otu642;Cercomonadida;Cercomonadidae;Cercomonas;Cercomonas+plasmodialis;AF411268;96,58;omnivore;naked amoeboflagellate
+Otu643;Glissomonadida;Sandonidae;Sandonidae_X;Sandonidae_X+sp;KC672568;90,94;bacterivore;naked flagellate
+Otu644;Glissomonadida;Allapsidae;Allapsidae_X;Allapsidae_X+sp;EF023289;91,72;bacterivore;naked flagellate
+Otu645;Desmothoracida;Clathrulinidae;Clathrulinidae_X;Clathrulinidae_X+sp;FJ592487;96,26;undetermined;testate cell organic
+Otu646;Cryomonadida;Rhogostoma-lineage;Rhogostoma-lineage_X;Rhogostoma-lineage_X+sp;HM628684;92,88;omnivore;testate cell organic
+Otu647;Glissomonadida;Allapsidae;Group-Te;Group_Te+sp;EU709251;99,69;undetermined;undetermined
+Otu648;Cryomonadida;Protaspa-lineage;Protaspa-lineage_X;Protaspa-lineage_X+sp;EU545683;90,38;eukaryvore;testate cell organic
+Otu649;Glissomonadida;Sandonidae;Sandonidae_X;Sandonidae_X+sp;HQ121433;93,68;bacterivore;naked flagellate
+Otu650;Glissomonadida;Sandonidae;Sandonidae_X;Sandonidae_X+sp;HQ918179;100;bacterivore;naked flagellate
+Otu651;Glissomonadida;Glissomonadida_X;Glissomonadida_XX;Glissomonadida_XX+sp;AB695519;96,28;undetermined;undetermined
+Otu652;unassigned Filosa;Filosa_XX;Filosa_XXX;Filosa_XXX+sp;EF024287;92,86;undetermined;undetermined
+Otu653;Euglyphida;Euglyphida_X;Euglyphida_XX;Euglyphida_XX+sp;KF219445;89,87;undetermined;testate cell silica
+Otu654;Glissomonadida;Sandonidae;Sandonidae_X;Sandonidae_X+sp;FJ592291;96,6;bacterivore;naked flagellate
+Otu655;Cercomonadida;Paracercomonadidae;Paracercomonas;Paracercomonas+metabolicus;DQ211597;92,65;bacterivore;naked amoeboflagellate
+Otu656;Cercomonadida;Paracercomonadidae;Paracercomonas;Paracercomonas+virgaria;AY884340;87,85;bacterivore;naked amoeboflagellate
+Otu657;Glissomonadida;Glissomonadida_X;Glissomonadida_XX;Glissomonadida_XX+sp;EU709274;99,05;undetermined;undetermined
+Otu658;Glissomonadida;Sandonidae;Sandonidae_X;Sandonidae_X+sp;KC672568;95,47;bacterivore;naked flagellate
+Otu659;Glissomonadida;Allapsidae;Allapsidae_X;Allapsidae_X+sp;EU709273;96,31;bacterivore;naked flagellate
+Otu660;Glissomonadida;Sandonidae;Mollimonas;Mollimonas+vickermani;HQ918173;96,88;bacterivore;naked flagellate
+Otu661;Glissomonadida;Allapsidae;Allapsidae_X;Allapsidae_X+sp;AB695526;93,79;bacterivore;naked flagellate
+Otu662;Glissomonadida;Sandonidae;Sandonidae_X;Sandonidae_X+sp;AM114804;96,59;bacterivore;naked flagellate
+Otu663;Cryomonadida;Protaspa-lineage;Protaspa-lineage_X;Protaspa-lineage_X+sp._strain16;FN690411;95,77;eukaryvore;testate cell organic
+Otu664;Cryomonadida;Rhogostoma-lineage;Rhogostoma-lineage_X;Rhogostoma-lineage_X+sp;HM628684;93,52;omnivore;testate cell organic
+Otu665;Cercomonadida;Cercomonadidae;Cercomonas;Cercomonas+plasmodialis;AF411268;94,44;omnivore;naked amoeboflagellate
+Otu666;Euglyphida;Euglyphidae;Assulina;Assulina+muscorum;AJ418791;97,16;omnivore;testate cell silica
+Otu667;Glissomonadida;Allapsidae;Allapsidae_X;Allapsidae_X+sp;EU709273;90,83;bacterivore;naked flagellate
+Otu668;Glissomonadida;Glissomonadida_X;Glissomonadida_XX;Glissomonadida_XX+sp;AB695519;95,98;undetermined;undetermined
+Otu669;Glissomonadida;Sandonidae;Mollimonas;Mollimonas+vickermani;HQ918173;97,82;bacterivore;naked flagellate
+Otu670;Euglyphida;Euglyphidae;Euglypha;Euglypha+penardi;EF456753;94,44;omnivore;testate cell silica
+Otu671;Glissomonadida;Sandonidae;Sandonidae_X;Sandonidae_X+sp;KC672587;91,95;bacterivore;naked flagellate
+Otu672;Euglyphida;Euglyphidae;Euglypha;Euglypha+penardi;EF456753;88,31;omnivore;testate cell silica
+Otu673;Cercomonadida;Cercomonadidae;Cercomonas;Cercomonas+sp;HM536148;95,37;omnivore;naked amoeboflagellate
+Otu674;Glissomonadida;Sandonidae;Sandona;Sandona+aporians;AY965867;97,52;bacterivore;naked flagellate
+Otu675;Euglyphida;Euglyphidae;Euglypha;Euglypha+tuberculata;AJ418787;92,33;omnivore;testate cell silica
+Otu676;Glissomonadida;Glissomonadida_X;Glissomonadida_XX;Glissomonadida_XX+sp;KC672643;97,6;undetermined;undetermined
+Otu677;Glissomonadida;Allapsidae;Allapsidae_X;Allapsidae_X+sp;EU709273;95,43;bacterivore;naked flagellate
+Otu678;Cryomonadida;Rhogostoma-lineage;Rhogostoma;Rhogostoma+schuessleri;HQ121430;92,57;omnivore;testate cell organic
+Otu679;Glissomonadida;Allapsidae;Allapsidae_X;Allapsidae_X+sp;EU709273;93,25;bacterivore;naked flagellate
+Otu680;Euglyphida;Euglyphidae;Assulina;Assulina+muscorum;AJ418791;95,05;omnivore;testate cell silica
+Otu681;Cercomonadida;Cercomonadidae;Cercomonas;Cercomonas+sp;FJ790755;99,69;omnivore;naked amoeboflagellate
+Otu682;unassigned Cercozoa;Cercozoa_XXX;Cercozoa_XXXX;Cercozoa_XXXX+sp;KC488573;86,32;undetermined;undetermined
+Otu683;Limnofilida;Limnofilidae;Limnofilidae_X;Limnofilidae_X+sp;AY082993;93,87;bacterivore;naked amoeboflagellate
+Otu684;Glissomonadida;Sandonidae;Bodomorpha;Bodomorpha+sp;HM536172;96,9;bacterivore;naked flagellate
+Otu685;Spongomonadida;Spongomonadidae;Spongomonas;Spongomonas+minima;AF411281;95,06;bacterivore;naked flagellate
+Otu686;Glissomonadida;Allapsidae;Allapsidae_X;Allapsidae_X+sp;EU709273;94,23;bacterivore;naked flagellate
+Otu687;Glissomonadida;Allapsidae;Allapsidae_X;Allapsidae_X+sp;EU709273;92,97;bacterivore;naked flagellate
+Otu688;Glissomonadida;Allapsidae;Allapsidae_X;Allapsidae_X+sp;EU709266;96,62;bacterivore;naked flagellate
+Otu689;Limnofilida;Limnofilidae;Limnofilidae_X;Limnofilidae_X+sp;EU567238;94,79;bacterivore;naked amoeboflagellate
+Otu690;Cercomonadida;Cercomonadidae;Cercomonas;Cercomonas+sp;HM536148;95,38;omnivore;naked amoeboflagellate
+Otu691;Glissomonadida;Sandonidae;Sandonidae_X;Sandonidae_X+sp;AM114804;96,59;bacterivore;naked flagellate
+Otu692;Cercomonadida;Paracercomonadidae;Paracercomonas;Paracercomonas+sp;FJ790726;96,68;bacterivore;naked amoeboflagellate
+Otu693;Glissomonadida;Sandonidae;Sandonidae_X;Sandonidae_X+sp;AM114804;94,72;bacterivore;naked flagellate
+Otu694;Glissomonadida;Allapsidae;Allapsidae_X;Allapsidae_X+sp;KC306595;92,52;bacterivore;naked flagellate
+Otu695;Cryomonadida;Rhogostoma-lineage;Rhogostoma-lineage_X;Rhogostoma-lineage_X+sp;EF023812;92,59;omnivore;testate cell organic
+Otu696;Glissomonadida;Sandonidae;Sandonidae_X;Sandonidae_X+sp;AM114804;88,72;bacterivore;naked flagellate
+Otu697;Glissomonadida;Allapsidae;Allapsidae_X;Allapsidae_X+sp;EU709273;100;bacterivore;naked flagellate
+Otu698;Marimonadida;Marimonadida_X;Marimonadida_XX;Marimonadida_XX+sp;HQ864984;93,27;undetermined;naked flagellate
+Otu699;Glissomonadida;Allapsidae;Group-Te;Group_Te+sp;EU709246;90,21;undetermined;undetermined
+Otu700;Glissomonadida;Sandonidae;Sandonidae_X;Sandonidae_X+sp;AM114804;96,9;bacterivore;naked flagellate
+Otu701;Cercomonadida;Cercomonadidae;Cercomonas;Cercomonas+sp;EF024080;94,38;omnivore;naked amoeboflagellate
+Otu702;Cryomonadida;Rhogostoma-lineage;Rhogostoma;Rhogostoma+schuessleri;HQ121430;91,33;omnivore;testate cell organic
+Otu703;unassigned Granofilosea;he2-lineage;he2-lineage_X;he2-lineage_X+sp;EU567249;90,48;undetermined;undetermined
+Otu704;Glissomonadida;Sandonidae;Sandonidae_X;Sandonidae_X+sp;FJ592291;91,93;bacterivore;naked flagellate
+Otu705;Glissomonadida;Bodomorphidae;Bodomorpha;Bodomorpha+sp;EU647174;91,44;bacterivore;naked flagellate
+Otu706;Limnofilida;Limnofilidae;Limnofilidae_X;Limnofilidae_X+sp;KC306541;90,85;bacterivore;naked amoeboflagellate
+Otu707;Euglyphida;Euglyphidae;Euglypha;Euglypha+tuberculata;AJ418787;87,65;omnivore;testate cell silica
+Otu708;Limnofilida;Limnofilidae;Limnofila;Limnofila+longa;EU567254;95,99;bacterivore;naked amoeboflagellate
+Otu709;Limnofilida;Limnofilidae;Limnofila;Limnofila+anglica;EU567255;91,19;bacterivore;naked amoeboflagellate
+Otu710;Glissomonadida;Sandonidae;Bodomorpha;Bodomorpha+sp;HM536172;92,81;bacterivore;naked flagellate
+Otu711;Glissomonadida;Sandonidae;Sandonidae_X;Sandonidae_X+sp;FJ592291;93,17;bacterivore;naked flagellate
+Otu712;Glissomonadida;Allapsidae;Allapsidae_X;Allapsidae_X+sp;EU709266;96,31;bacterivore;naked flagellate
+Otu713;Glissomonadida;Allapsidae;Group-Te;Group_Te+sp;EF024447;93,73;undetermined;undetermined
+Otu714;Tectofilosida;Pseudodifflugiidae;Pseudodifflugiidae_X;Pseudodifflugiidae_X+sp;GU479953;95,08;eukaryvore;testate cell organic
+Otu715;unassigned Granofilosea;Novel-Gran-6;Novel-Gran-6_X;Novel-Gran-6_X+sp;AY620300;92,4;undetermined;undetermined
+Otu716;Glissomonadida;Allapsidae;Allapsidae_X;Allapsidae_X+sp;EU709273;93,67;bacterivore;naked flagellate
+Otu717;Cercomonadida;Cercomonadidae;Cercomonas;Cercomonas+sp;FJ790705;99,05;omnivore;naked amoeboflagellate
+Otu718;Glissomonadida;Allapsidae;Allapsidae_X;Allapsidae_X+sp;EU709273;87,43;bacterivore;naked flagellate
+Otu719;Glissomonadida;Allapsidae;Allapsidae_X;Allapsidae_X+sp;EU709273;93,6;bacterivore;naked flagellate
+Otu720;Cryomonadida;Rhogostoma-lineage;Rhogostoma;Rhogostoma+schuessleri;HQ121430;92,64;omnivore;testate cell organic
+Otu721;Cercomonadida;Paracercomonadidae;Paracercomonas;Paracercomonas+sp;AY620298;90,31;bacterivore;naked amoeboflagellate
+Otu722;Glissomonadida;Sandonidae;Sandonidae_X;Sandonidae_X+sp;FJ592291;96,89;bacterivore;naked flagellate
+Otu723;Marimonadida;Marimonadida_X;Marimonadida_XX;Marimonadida_XX+sp;AB252753;91,56;undetermined;naked flagellate
+Otu724;Cryomonadida;Protaspa-lineage;Protaspa-lineage_X;Protaspa-lineage_X+sp._strain16;FN690411;94,37;eukaryvore;testate cell organic
+Otu725;Glissomonadida;Allapsidae;Allapsidae_X;Allapsidae_X+sp;EU709273;91,79;bacterivore;naked flagellate
+Otu726;Glissomonadida;Sandonidae;Bodomorpha;Bodomorpha+sp;HM536172;96,58;bacterivore;naked flagellate
+Otu727;Cercomonadida;Cercomonadidae;Cercomonas;Cercomonas+sp;EF024080;92,19;omnivore;naked amoeboflagellate
+Otu728;Glissomonadida;Sandonidae;Sandonidae_X;Sandonidae_X+sp;AM114804;94,1;bacterivore;naked flagellate
+Otu729;Glissomonadida;Allapsidae;Allapsidae_X;Allapsidae_X+sp;EU709273;86,9;bacterivore;naked flagellate
+Otu730;Euglyphida;Euglyphidae;Assulina;Assulina+muscorum;AJ418791;93,81;omnivore;testate cell silica
+Otu731;Glissomonadida;Allapsidae;Allapsidae_X;Allapsidae_X+sp;EU709273;100;bacterivore;naked flagellate
+Otu732;Glissomonadida;Sandonidae;Sandonidae_X;Sandonidae_X+sp;AM114804;95,99;bacterivore;naked flagellate
+Otu733;Glissomonadida;Allapsidae;Allapsidae_X;Allapsidae_X+sp;AB695526;95,02;bacterivore;naked flagellate
+Otu734;Glissomonadida;Sandonidae;Sandonidae_X;Sandonidae_X+sp;KC672587;91,69;bacterivore;naked flagellate
+Otu735;Cercomonadida;Paracercomonadidae;Paracercomonas;Paracercomonas+sp;EF024396;93,17;bacterivore;naked amoeboflagellate
+Otu736;Glissomonadida;Allapsidae;Viridiraptor;Viridiraptor+invadens;KF207869;96,63;eukaryvore;naked amoeboflagellate
+Otu737;Glissomonadida;Sandonidae;Bodomorpha;Bodomorpha+sp;HM536172;96,89;bacterivore;naked flagellate
+Otu738;Cryomonadida;Rhogostoma-lineage;Rhogostoma;Rhogostoma+schuessleri;HQ121430;88,58;omnivore;testate cell organic
+Otu739;Glissomonadida;Sandonidae;Sandonidae_X;Sandonidae_X+sp;FJ592291;96,58;bacterivore;naked flagellate
+Otu740;Limnofilida;Limnofilidae;Limnofilidae_X;Limnofilidae_X+sp;AY082993;96,6;bacterivore;naked amoeboflagellate
+Otu741;Cercomonadida;Cercomonadidae;Cercomonas;Cercomonas+plasmodialis;AF411268;96,89;omnivore;naked amoeboflagellate
+Otu742;Glissomonadida;Allapsidae;Allapsidae_X;Allapsidae_X+sp;EU709273;93,66;bacterivore;naked flagellate
+Otu743;Cryomonadida;Rhogostoma-lineage;Rhogostoma-lineage_X;Rhogostoma-lineage_X+sp;HM628684;99,54;omnivore;testate cell organic
+Otu744;unassigned Filosa;Filosa_XX;Filosa_XXX;Filosa_XXX+sp;AB534506;86,83;undetermined;undetermined
+Otu745;Spongomonadida;Spongomonadidae;Spongomonadidae_X;Spongomonadidae_X+sp;AF372740;97,82;bacterivore;naked flagellate
+Otu746;Cryomonadida;Rhogostoma-lineage;Rhogostoma;Rhogostoma+schuessleri;HQ121430;90,43;omnivore;testate cell organic
+Otu747;Cercomonadida;Cercomonadidae;Cercomonas;Cercomonas+sp;AY884333;96,05;omnivore;naked amoeboflagellate
+Otu748;Glissomonadida;Sandonidae;Sandonidae_X;Sandonidae_X+sp;KC672587;94,46;bacterivore;naked flagellate
+Otu749;Glissomonadida;Allapsidae;Allapsidae_X;Allapsidae_X+sp;EU709266;90,85;bacterivore;naked flagellate
+Otu750;Glissomonadida;Glissomonadida_X;Glissomonadida_XX;Glissomonadida_XX+sp;KC672643;97,58;undetermined;undetermined
+Otu751;Glissomonadida;Allapsidae;Allapsidae_X;Allapsidae_X+sp;EU709273;84,89;bacterivore;naked flagellate
+Otu752;Glissomonadida;Sandonidae;Sandona;Sandona+aporians;AY965867;94,72;bacterivore;naked flagellate
+Otu753;Glissomonadida;Allapsidae;Group-Te;Group_Te+sp;EF024447;99,4;undetermined;undetermined
+Otu754;Glissomonadida;Allapsidae;Allapsidae_X;Allapsidae_X+sp;EU709273;94,26;bacterivore;naked flagellate
+Otu755;Euglyphida;Euglyphidae;Euglypha;Euglypha+tuberculata;AJ418787;93,83;omnivore;testate cell silica
+Otu756;Tremulida;Tremulidae;Tremula;Tremula+longifila;EU567287;94,12;eukaryvore;naked flagellate
+Otu757;Glissomonadida;Allapsidae;Allapsidae_X;Allapsidae_X+sp;EU709266;91,41;bacterivore;naked flagellate
+Otu758;Cercomonadida;Paracercomonadidae;Paracercomonas;Paracercomonas+sp;HM536155;89,94;bacterivore;naked amoeboflagellate
+Otu759;Glissomonadida;Sandonidae;Bodomorpha;Bodomorpha+sp;HM536172;98,45;bacterivore;naked flagellate
+Otu760;Glissomonadida;Sandonidae;Sandonidae_X;Sandonidae_X+sp;HQ121433;96,3;bacterivore;naked flagellate
+Otu761;Glissomonadida;Sandonidae;Bodomorpha;Bodomorpha+sp;HM536172;96,89;bacterivore;naked flagellate
+Otu762;Limnofilida;Limnofilidae;Limnofilidae_X;Limnofilidae_X+sp;KC306541;94,27;bacterivore;naked amoeboflagellate
+Otu763;Vampyrellida;Penardia-lineage;Penardia-lineage_X;Penardia-lineage_X+sp;AF372744;93,64;undetermined;undetermined
+Otu764;Cercomonadida;Cercomonadidae;Cercomonas;Cercomonas+zhukovi;FJ790683;91,38;omnivore;naked amoeboflagellate
+Otu765;Glissomonadida;Glissomonadida_X;Glissomonadida_XX;Glissomonadida_XX+sp;EU709274;96;undetermined;undetermined
+Otu766;Glissomonadida;Sandonidae;Sandonidae_X;Sandonidae_X+sp;KC672587;92,88;bacterivore;naked flagellate
+Otu767;Glissomonadida;Allapsidae;Allapsidae_X;Allapsidae_X+sp;AB695472;92,9;bacterivore;naked flagellate
+Otu768;Glissomonadida;Allapsidae;Allapsidae_X;Allapsidae_X+sp;EU709273;84,38;bacterivore;naked flagellate
+Otu769;Glissomonadida;Glissomonadida_X;Glissomonadida_XX;Glissomonadida_XX+sp;AB695519;96,28;undetermined;undetermined
+Otu770;Glissomonadida;Allapsidae;Allapsidae_X;Allapsidae_X+sp;EU709273;91,79;bacterivore;naked flagellate
+Otu771;Plasmodiophorida;Plasmodiophorida_X;Plasmodiophorida_XX;Plasmodiophorida_XX+sp;KF111215;90,35;undetermined;endoparasite
+Otu772;Glissomonadida;Allapsidae;Allapsidae_X;Allapsidae_X+sp;EU709273;96,05;bacterivore;naked flagellate
+Otu773;unassigned Filosa;Filosa_XX;Filosa_XXX;Filosa_XXX+sp;EF024287;100;undetermined;undetermined
+Otu774;Glissomonadida;Glissomonadida_X;Glissomonadida_XX;Glissomonadida_XX+sp;KC672643;85,45;undetermined;undetermined
+Otu775;Cercomonadida;Cercomonadidae;Cercomonas;Cercomonas+sp;FJ790751;95,34;omnivore;naked amoeboflagellate
+Otu776;Glissomonadida;Allapsidae;Allapsidae_X;Allapsidae_X+sp;EU709273;95,09;bacterivore;naked flagellate
+Otu777;Glissomonadida;Sandonidae;Sandonidae_X;Sandonidae_X+sp;AM114804;94,74;bacterivore;naked flagellate
+Otu778;Glissomonadida;Bodomorphidae;Bodomorpha;Bodomorpha+sp;JN054696;89,32;bacterivore;naked flagellate
+Otu779;Thaumatomonadida;Thaumatomonadidae;Thaumatomonas;Thaumatomonas+seravini;EF455776;97,24;bacterivore;testate cell silica
+Otu780;Glissomonadida;Allapsidae;Allapsidae_X;Allapsidae_X+sp;EU709273;95,4;bacterivore;naked flagellate
+Otu781;Cercomonadida;Cercomonadidae;Cercomonas;Cercomonas+zhukovi;FJ790683;98,14;omnivore;naked amoeboflagellate
+Otu782;Cercomonadida;Cercomonadidae;Cercomonas;Cercomonas+fastiga;FJ790700;95,45;omnivore;naked amoeboflagellate
+Otu783;Glissomonadida;Allapsidae;Teretomonas;Teretomonas+rotunda;EU709247;95,34;bacterivore;naked flagellate

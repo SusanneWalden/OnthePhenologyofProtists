@@ -56,7 +56,7 @@ species_mat_A18 = species_mat[OTU_Table$SamplingDescription == "Autumn 2018",]
 Next we normalize our species matrix with a hellinger transformation and 
 perform the redundancy analysis for every sampling period:
 
-```{r Transorfm data, warning=FALSE, message=FALSE, results="hide"}
+```{r Transform data, warning=FALSE, message=FALSE, results="hide"}
 #Spring 2018
 species_mat_he = decostand(species_mat_S18, "hellinger")# choose the subtable depending on sampling period
 

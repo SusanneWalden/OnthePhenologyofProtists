@@ -15,7 +15,7 @@ This folder contains the final OTU table, taxonomic and functional annotation, s
 
 
 ### 01 Sequencing Results and Taxonomic and Funtional Annotation
-The visualisation of the taxonomy then includes **[plotting the sequence similarity to reference sequences](01_Taxonomic_Functional_Annotation_and_Visualisation/SequenceSimilarity_toReferenceDatabase.md)** and a diagram showing the **[total taxonomic composition per microhabitat and sampling period](01_Taxonomic_Annotation_and_Visualisation/Taxonomic_Composition.md)** and the **[total functional trait composition per microhabitat and sampling period](01_Taxonomic_Annotation_and_Visualisation/Functional_Composition.md)**
+The visualisation of the taxonomy then includes **[plotting the sequence similarity to reference sequences](01_Taxonomic_Functional_Annotation_and_Visualisation/Sequence_Similarity.md)** and a diagram showing the **[total taxonomic composition per microhabitat and sampling period](01_Taxonomic_Annotation_and_Visualisation/Taxonomic_Composition.md)** and the **[total functional trait composition per microhabitat and sampling period](01_Taxonomic_Annotation_and_Visualisation/Functional_Composition.md)**
 
 ### 02 Seasonal variation and spatial structuring
 In this section we were looking for **[differentially abundundant OTUs per sampling season](02_Seasonal_Variation/DifferentiallyAbundantOTUs.md)**.

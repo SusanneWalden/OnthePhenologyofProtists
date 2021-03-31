@@ -1,0 +1,159 @@
+Taxonomic Diversity
+================
+
+Load data
+---------
+
+``` r
+rm(list= ls())
+
+
+library(ggplot2)
+library(reshape2)
+library(phenotypicForest)
+library(magrittr)
+
+TAX= read.csv2("../00_Data/AllSeason_Cerc_En_Taxonomy_R.csv",header = T)
+OTU_Table = as.data.frame(read.csv2("../00_Data/05_Cercozoa_Seasonal_OTU_Table_min-freq-7633_transposed_withMetadata.csv",header = T))
+
+SampleMetadata = OTU_Table[,1:17]
+Species = OTU_Table[,18:ncol(OTU_Table)]
+```
+
+Prepare Data
+------------
+
+``` r
+# group Sample Metadata by sampling period
+
+SampleMetadata_S18 = SampleMetadata[OTU_Table$SamplingDescription == "Spring 2018",]
+SampleMetadata_S19 = SampleMetadata[OTU_Table$SamplingDescription == "Spring 2019",]
+SampleMetadata_A17 = SampleMetadata[OTU_Table$SamplingDescription == "Autumn 2017",]
+SampleMetadata_A18 = SampleMetadata[OTU_Table$SamplingDescription == "Autumn 2018",]
+
+# group OTUS by sampling period
+
+species_mat_S18 = Species[OTU_Table$SamplingDescription == "Spring 2018",]
+species_mat_S19 = Species[OTU_Table$SamplingDescription == "Spring 2019",]
+species_mat_A17 = Species[OTU_Table$SamplingDescription == "Autumn 2017",]
+species_mat_A18 = Species[OTU_Table$SamplingDescription == "Autumn 2018",]
+
+
+Abundances = colSums(species_mat_S18)# choose subtable
+TAX = cbind(TAX, Abundances)
+
+TAX$OTU_ID = paste0("OTU", TAX$OTU_Number, "_", TAX$Species)
+TAX$Order = as.factor(TAX$Order)
+```
+
+Aggregate tables
+----------------
+
+``` r
+OrderTable = species_mat_S18# choose subtable
+colnames(OrderTable) = TAX$Order
+
+# First aggregate by Habitat
+HabitatAggregatedOrderTable = aggregate(OrderTable, by = list(SampleMetadata_S18$Microhabitat), FUN = sum)# choose subtable
+rownames(HabitatAggregatedOrderTable) = HabitatAggregatedOrderTable$Group.1
+HabitatAggregatedOrderTable = HabitatAggregatedOrderTable[,-1]
+
+
+# if you want to check the number of OTUs instead of the amount of reads:
+#HabitatAggregatedOrderTable[,] = ifelse(HabitatAggregatedOrderTable[,] > 0, 1, 0)
+
+#Then aggregate the (transposed) table by Order
+HabitatAggregatedOrderTable = aggregate(t(HabitatAggregatedOrderTable), 
+                                        by = list(TAX$Order), 
+                                        FUN = sum)
+rownames(HabitatAggregatedOrderTable) = HabitatAggregatedOrderTable$Group.1
+HabitatAggregatedOrderTable = HabitatAggregatedOrderTable[,-1]
+HabitatAggregatedOrderTable = as.data.frame(HabitatAggregatedOrderTable)
+
+# melt the table so ggplot can interpret it as a histogram
+data = HabitatAggregatedOrderTable
+data$Order = rownames(data)
+data2 = melt(data, id.vars = "Order")
+
+# add the Stratum
+data3 = data2
+data3$Stratum = ifelse(data2$variable %in% c("Leaf Litter", "Soil"), "Ground", "Canopy")
+
+# for the plotting we need to change the column names
+colnames(data3) = c("score", "item", "value", "family")
+
+data3$item <- factor(data3$item, levels=c("Soil","Leaf Litter","Lichen","Orthotrichum","Hypnum", "Arboreal Soil","Bark","Deadwood","Fresh Leaves"))
+```
+
+ggplot
+------
+
+``` r
+#plot 
+
+S18 = ggplot(data3, aes(fill=score, y=value, x=item)) + 
+            geom_bar(position="fill", stat="identity")+ 
+            scale_fill_manual(values = c("#008B8B","#ADD8E6","#EC6B25","#ffd27f","#228B22",
+                               "#90EE90","#6f0000","#f6beb2","#730073","#cc99cc",
+                               "#4c3706","#998b6a","#b25162","#ffabba","#656565",
+                               "#c2c2c2","#c7b823","#e9df81","#2ca898","#9be8df",
+                               "#73315d","#e0a9cd","#ffff4c","#ffffb2","#0a2d22"), 
+                              limits = c("Cercomonadida","Cryomonadida","Cryptofilida", "Desmothoracida",
+                               "Ebriida","Euglyphida","Glissomonadida","Limnofilida","Marimonadida",
+                               "Novel-clade-10","Novel-clade-12","Novel-clade-9","Pansomonadida",
+                               "Plasmodiophorida","Spongomonadida","Tectofilosida","Thaumatomonadida",
+                               "Tremulida","unassigned Cercozoa","unassigned Filosa",
+                               "unassigned Granofilosea","unassigned Imbricatea",
+                               "unassigned Thecofilosea","Vampyrellida","Ventricleftida"),
+                                 guide = guide_legend(ncol = 1))+
+          scale_y_continuous(labels = function(x) paste0(x*100, "%")) +
+          labs(fill = "Order", y= "Relative Abundances", x = "Microhabitat",title = "Spring 2018")+
+          theme_minimal()+
+        theme(plot.title = element_text(size = 16, face = "bold", hjust = 0.5),
+        legend.text = element_text(size = 16), 
+        legend.title = element_text(size = 16, face = "bold"),
+        legend.key.height = unit(3, "mm"),
+        legend.key.width = unit(3, "mm"),
+        axis.text=element_text(size=14), 
+        axis.title=element_text(size=16,face="bold"))+
+        geom_label(x = 6.5, y = 0.75, fill = "darkolivegreen4", color = "white", 
+                  label = "Canopy", size = 8 ) +
+        geom_label(x = 1.5, y = 0.75, fill = "burlywood4", color = "white", 
+                  label = "Ground", size = 8)+
+        geom_vline(xintercept = 2.50, size = 0.6, linetype=1.5, color = "#6A785F")+
+        coord_flip()
+
+S18
+```
+
+![](Taxonomic_Composition_files/figure-markdown_github/Plot%20RDA-1.png)
+
+Combine all plots
+-----------------
+
+After you repeated the above mentioned code for every sampling period you can combine all plots with the *ggarrange* function from the ggpubr package.
+
+``` r
+#combi = ggarrange( H17, S18, A18, S19,
+#                   labels = c("A", "B","C","D"), 
+#                   ncol = 2, nrow = 2, font.label = list(size = 16, color = "black"), 
+#                   common.legend = T, legend = "right", 
+#                   align = "v")+
+#        theme(plot.margin = margin(1,1,1,1, "cm")) 
+#combi
+
+
+#save
+#ggsave("OrderCombined_300_336x252.jpeg", plot = combi, 
+#       device = "jpeg", dpi = 300, width = 336, height = 252, 
+#       units = "mm")
+#ggsave("OrderCombined_600_336x252.pdf", plot = combi, 
+#       device = "pdf", dpi = 600, width = 336, height = 252, 
+#       units = "mm")
+#ggsave("OrderCombined_600_336x252.tif", plot = combi, 
+#       device = "tiff", dpi = 600, width = 336, height = 252, 
+#       units = "mm")
+#ggsave("OrderCombined_600_336x252.png", plot = combi, 
+#       device = "png", dpi = 600, width = 336, height = 252, 
+#      units = "mm")
+```
