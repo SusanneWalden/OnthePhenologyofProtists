@@ -5,7 +5,7 @@ Welcome to the **On the Phenology of Protists** repository!
 
 This repository is a collection of several scripts and mini-tutorials guiding you through the methods of metabarcoding analyses which were performed in the paper by [Walden et al., 2021](https://www.biorxiv.org/content/10.1101/2021.02.15.431229v1). The data and methods are mainly based on the paper by Jauss & Walden et al., 2020 and the corresponding Github repository [FromForestSoilToCanopy](https://github.com/RJauss/FromForestSoilToCanopy) .
 
-The raw data can be downloaded [here](https://www.ebi.ac.uk/ena/browser/view/PRJEB37525), plots and figures were generated with the final OTU Table and annotation files accessible in the folder [00_Data](00_Data/). 
+The raw data can be downloaded [here](https://www.ebi.ac.uk/ena/browser/view/PRJEB37525), plots and figures were generated with the final OTU Table (not provided) and annotation files accessible in the folder [00_Data](00_Data/). 
 
 ## Table of Content
 *Relevant scripts and tutorials can be found in the corresponding markdown files, which are* **linked and highlighted** *for each category.*
