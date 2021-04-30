@@ -1,0 +1,182 @@
+Variation Partitioning Analysis
+================
+
+In the following section we want to calcuclate the proportion of variation in species composition explained by each variable.
+
+Load data
+---------
+
+``` r
+rm(list = ls()) 
+
+library(vegan)
+library(plyr)
+library(funrar) 
+library(ggplot2)
+library(ggforce)
+#library(ggpubr)
+
+
+OTU_Table = as.data.frame(read.csv2("../00_Data/05_Cercozoa_Seasonal_OTU_Table_min-freq-7633_transposed_withMetadata.csv",header = T))
+
+
+species = OTU_Table[,18:ncol(OTU_Table)]
+species.mat = as.matrix(species)
+species.mat = make_relative(species.mat)
+SampleMetadata = as.data.frame(OTU_Table[,1:17])
+
+
+#We need the Hellinger-transformed OTUs table with OTUs as columns and a table of metadata: Microhabitat, season and treespecies.
+
+OTUCer.hel = decostand(species.mat, "hellinger")
+```
+
+Calulate Variation Partitioning
+-------------------------------
+
+First we plot the variation partitioning of our variables with the `varprat` function within the *vegan* package. Variation partitioning (using RDA, CCA or db-RDA) among up to four matrices of environmental variables. First argument (Y) is dependent variable, usually the matrix of species composition (the function calculates RDA, or, if chisquare = TRUE, CCA), but could be also only a single variable (in that case it calculates linear regression) or distance matrix (applying db-RDA using the function capscale). Further arguments (up to four) are (groups of) explanatory variables. The function uses either formula interface (with ~, see examples) or matrices.
+
+``` r
+Cervarp.all <- varpart(OTUCer.hel, ~ Season, ~ Microhabitat, ~TreeSpecies, data = SampleMetadata)
+Cervarp.all
+```
+
+Plot Variation Partitioning
+---------------------------
+
+``` r
+plot(Cervarp.all, digits = 2, Xnames = c('Season', 'Microhabitat', 'TreeSpecies'), bg = c('navy', 'tomato', 'green'))
+```
+
+![](Variance_Partitioning_files/figure-markdown_github/Plot%20Varprat-1.png)
+
+Plot with ggplot
+----------------
+
+Unfortunatley it\`s not so easy to modify the plot afterwards. Consequently, we repeat the plotting with ggplot to modify coloration and save settings.
+
+``` r
+#create dummy dataframe
+df.venn <- data.frame(x = c(3, 1, 2),y = c(1, 1,2.8),labels = c('Microhabitat\n0.319', 'Season\n0.013',"Treespecies\n0.028"))
+
+Varprat <- ggplot(df.venn, aes(x0 = x, y0 = y, r = 1.5, fill = labels)) +
+                  geom_circle(alpha = .6, size = 1, colour = "#3f3a3a",show.legend = FALSE) +
+                  coord_fixed()+
+                  annotate("text", x = df.venn$x , y = df.venn$y,label=df.venn$labels ,size = 6) +
+                  scale_fill_manual(values = c("#660033","#B5A642","#094d35")) +
+                  theme_void()
+                  #annotate("text", x = 2 , y =1,label="A and B" ,size = 4) +
+                  #annotate("text", x = 1.35 , y =2,label="B and C" ,size = 4) +
+                  #annotate("text", x = 2.7 , y =2,label="A and C" ,size = 4) +
+                  #annotate("text", x = 2 , y =1.6,label="A and B and C" ,size = 2)+theme_void()
+
+Varprat
+```
+
+![](Variance_Partitioning_files/figure-markdown_github/Ggplot%20Varprat-1.png)
+
+``` r
+# save plot
+ggsave("VarPar_300_160x160.jpeg", plot = Varprat, 
+        device = "jpeg", dpi = 300, width = 160, height = 160, 
+        units = "mm")
+#ggsave("VarPar_600_160x160.pdf", plot = Varprat, 
+#       device = "pdf", dpi = 600, width = 160, height = 160, 
+#       units = "mm")
+#ggsave("VarPar_600_160x160.tif", plot = Varprat, 
+#       device = "tiff", dpi = 600, width = 160, height = 160,  
+#       units = "mm")
+#ggsave("VarPar_600_160x160.png", plot = Varprat, 
+#       device = "png", dpi = 600, width = 160, height = 160, 
+#       units = "mm")
+```
+
+Variation Partitioning Analysis - calculation of adjusted R2 values
+-------------------------------------------------------------------
+
+The interpretation the results should be based on adjusted R2, although raw R2 is also reported (for CCA, adjusted R2 is calculated by permutation method of [Peres-Neto et al. 2006](https://esajournals.onlinelibrary.wiley.com/doi/full/10.1890/0012-9658%282006%2987%5B2614%3AVPOSDM%5D2.0.CO%3B2?casa_token=tRcDjcXcbNwAAAAA%3AugcpGMzywSAYRFWifRSZJ-0fLtStFiHFuqDP1LnvoSLTdkJS_EtBhbnMCIjd0fl7nmpkonuTVIraoDafeQ) and may slightly vary between re-analyses of the same data; the argument permutations specifies the number of permutations used to calculate adjusted R2 in CCA).
+
+``` r
+rda.all<-rda(OTUCer.hel~Season+Microhabitat+TreeSpecies, data=SampleMetadata)
+rda.all
+R2all <- RsquareAdj(rda.all)$adj.r.squared
+R2all #0.3552025
+
+
+rda.MS<-rda(OTUCer.hel~Microhabitat+Season, data=SampleMetadata)
+rda.MS 
+R2MS <- RsquareAdj(rda.MS)$adj.r.squared
+R2MS   #  0.3267351
+
+
+rda.TS<-rda(OTUCer.hel~TreeSpecies+Season, data=SampleMetadata)
+rda.TS
+R2TS <- RsquareAdj(rda.TS)$adj.r.squared
+R2TS   #  0.03582976
+
+
+rda.MT<-rda(OTUCer.hel~Microhabitat+TreeSpecies, data=SampleMetadata)
+rda.MT
+R2MT <- RsquareAdj(rda.MT)$adj.r.squared
+R2MT   #  0.341761
+
+#Getting values for individual fractions, S(Season), M (Microhabita), T(TreeSpecies), substract: 
+R2S<-(R2MS+R2TS)-R2all
+R2S   #   0.007362318 # different result than from the vartpart()WHY????
+R2M<-R2MS-R2S
+R2M   #  0.3193728
+R2T<-R2TS-R2S
+R2T   # 0.02846744
+
+# conditional effect of Microhabitat is highest  
+```
+
+Now, when we know both simple and conditional effect of each variables, we may want to know whether these variances are significant, and hence worth of interpreting. Results from varpart contain the column testable with logical values indicating whether given fraction is testable or not. To test each of them, we will need the models defined above, and the function anova, which (if applied on single object resulting from rda or cca method, returns Monte Carlo permutation test of the predictor effect). For this, we need to first define also partial ordination models with one variable as exlanatory and the other as covariable.
+
+``` r
+anova(rda.MS <- rda (OTUCer.hel ~ Microhabitat + Condition (Season), data = SampleMetadata))
+#Model: rda(formula = OTUCer.hel ~ Microhabitat + Condition(Season), data = SampleMetadata)
+#          Df Variance      F Pr(>F)    
+#Model      8  0.13447 17.819  0.001 ***
+#Residual 280  0.26413                  
+
+           
+anova(rda.SM <- rda (OTUCer.hel ~ Season + Condition (Microhabitat), data = SampleMetadata))      
+#Model: rda(formula = OTUCer.hel ~ Season + Condition(Microhabitat), data = SampleMetadata)
+#          Df Variance      F Pr(>F)    
+#Model      1 0.006217 6.5906  0.001 ***
+#Residual 280 0.264131 
+
+
+anova(rda.ST <- rda (OTUCer.hel ~ Season + Condition (TreeSpecies), data = SampleMetadata))
+#Model: rda(formula = OTUCer.hel ~ Season + Condition(TreeSpecies), data = SampleMetadata)
+#          Df Variance      F Pr(>F)    
+#Model      1  0.00629 4.6534  0.001 ***
+#Residual 286  0.38636                  
+
+
+anova(rda.TS <- rda (OTUCer.hel ~ TreeSpecies + Condition (Season), data = SampleMetadata))
+#Model: rda(formula = OTUCer.hel ~ TreeSpecies + Condition(Season), data = SampleMetadata)
+#          Df Variance      F Pr(>F)    
+#Model      2  0.01224 4.5298  0.001 ***
+#Residual 286  0.38636                  
+
+
+anova(rda.TM <- rda (OTUCer.hel ~ TreeSpecies + Condition (Microhabitat), data = SampleMetadata))
+#Model: rda(formula = OTUCer.hel ~ TreeSpecies + Condition(Microhabitat), data = SampleMetadata)
+#          Df Variance      F Pr(>F)    
+#Model      2 0.013034 7.0663  0.001 ***
+#Residual 279 0.257314  
+
+anova(rda.MT <- rda (OTUCer.hel ~ Microhabitat + Condition (TreeSpecies), data = SampleMetadata))
+#Model: rda(formula = OTUCer.hel ~ Microhabitat + Condition(TreeSpecies), data = SampleMetadata)
+#          Df Variance      F Pr(>F)    
+#Model      8  0.13534 18.343  0.001 ***
+#Residual 279  0.25731  
+       
+anova(rda.all)
+#Model: rda(formula = OTUCer.hel ~ Season + Microhabitat + TreeSpecies, data = SampleMetadata)
+#          Df Variance      F Pr(>F)    
+#Model     11  0.15377 15.473  0.001 ***
+#Residual 278  0.25116       
+```
