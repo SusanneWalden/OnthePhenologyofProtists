@@ -63,7 +63,7 @@ df_melted = melt(df)
 
 Now we want to visualise the alpha diversity indices in a combined boxplot and calculate the differences:
 
-```{r CercozoaAlphaBoxPlot, fig.width=16, fig.height=12, dpi=600, warning=FALSE, echo=FALSE}
+```{r CercozoaAlphaBoxPlot, fig.width=16, fig.height=12, dpi=600, warning=FALSE}
 df_melted_sort <- df_melted
 df_melted_sort$Microhabitat <- factor(df_melted_sort$Microhabitat,      # Reordering group factor levels
                          levels = c("Fresh Leaves","Deadwood","Arboreal Soil","Bark","Hypnum","Lichen", 

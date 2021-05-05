@@ -57,6 +57,35 @@ Plot the Figure
 
 Now we want to visualise the alpha diversity indices in a combined boxplot and calculate the differences:
 
+``` r
+df_melted_sort <- df_melted
+df_melted_sort$Microhabitat <- factor(df_melted_sort$Microhabitat,      # Reordering group factor levels
+                         levels = c("Fresh Leaves","Deadwood","Arboreal Soil","Bark","Hypnum","Lichen", 
+                                     "Orthotrichum","Leaf Litter","Soil"))
+
+g = ggplot(df_melted_sort, aes(x = Season, y = value, fill = Season)) + 
+    stat_boxplot(geom = "errorbar", width = 0.1, show.legend = F) +
+    geom_boxplot(show.legend = F) + 
+    scale_fill_manual(values = alpha(c("#014636","#660033"), 0.8), 
+                    limits = c("Spring","Autumn")) + 
+    scale_x_discrete(limits = c("Spring","Autumn")) + 
+    theme_minimal() + 
+    labs(y = "Alpha Diversity", x = "Season")+ 
+    theme(axis.text=element_text(size=14, face = "bold"), 
+        axis.title=element_text(size=16, face = "bold"), 
+        plot.subtitle = element_text(size = 14, hjust = 0.5),
+        strip.text = element_text(size = 13, face = "bold"),
+        axis.text.x = element_text(angle=45, hjust = 1)) +
+    facet_grid(variable ~ Microhabitat, scales = "free", switch = "y")+
+    theme(plot.margin = margin(1,1,1,1, "cm")) +
+    stat_compare_means(comparisons = list(c("Spring","Autumn")), label = "p.signif", 
+                     size = 3.5, method = "wilcox.test", exact=FALSE, vjust = 0.1, 
+                     symnum.args = list(cutpoints = c(0, 0.001, 0.01, 0.05, 1), 
+                                       symbols = c("***", "**", "*","NS")))
+
+g
+```
+
 ![](AlphaBoxplotGrouped_files/figure-markdown_github/CercozoaAlphaBoxPlot-1.png)
 
 ``` r
