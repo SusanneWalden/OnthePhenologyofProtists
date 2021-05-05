@@ -57,46 +57,16 @@ Plot the Figure
 
 Now we want to visualise the alpha diversity indices in a combined boxplot and calculate the differences:
 
-![](AphaBoxplotGrouped_files/figure-markdown_github/CercozoaAlphaBoxPlot-1.png)
+![](AlphaBoxplotGrouped_files/figure-markdown_github/CercozoaAlphaBoxPlot-1.png)
 
 ``` r
 #write.csv(df_melted_sort, file = "AlphaDiv_Values.csv")
 
 
 
-ggsave("AlphaDivGroup_300_336x252.jpeg", plot = g, 
-       device = "jpeg", dpi = 300, width = 336, height = 252, 
-       units = "mm")
-```
-
-    ## Warning in wilcox.test.default(c(267, 398, 236, 435, 277, 321, 358, 336, :
-    ## cannot compute exact p-value with ties
-
-    ## Warning in wilcox.test.default(c(317, 334, 356, 356, 457, 323, 391, 355, :
-    ## cannot compute exact p-value with ties
-
-    ## Warning in wilcox.test.default(c(318, 455, 417, 410, 380, 274, 308, 345, :
-    ## cannot compute exact p-value with ties
-
-    ## Warning in wilcox.test.default(c(402, 404, 392, 407, 444, 367, 443, 369, :
-    ## cannot compute exact p-value with ties
-
-    ## Warning in wilcox.test.default(c(433, 461, 457, 387, 301, 385, 464, 452, :
-    ## cannot compute exact p-value with ties
-
-    ## Warning in wilcox.test.default(c(372, 381, 486, 394, 354, 361, 468, 386, :
-    ## cannot compute exact p-value with ties
-
-    ## Warning in wilcox.test.default(c(364, 360, 478, 390, 404, 376, 425, 425, :
-    ## cannot compute exact p-value with ties
-
-    ## Warning in wilcox.test.default(c(488, 313, 369, 450, 448, 450, 454, 374, :
-    ## cannot compute exact p-value with ties
-
-    ## Warning in wilcox.test.default(c(505, 507, 511, 487, 520, 476, 515, 497, :
-    ## cannot compute exact p-value with ties
-
-``` r
+#ggsave("AlphaDivGroup_300_336x252.jpeg", plot = g, 
+#       device = "jpeg", dpi = 300, width = 336, height = 252, 
+#       units = "mm")
 #ggsave("AlphaDivGroup_600_336x252.pdf", plot = g, 
 #       device = "pdf", dpi = 600, width = 336, height = 252, 
 #       units = "mm")
