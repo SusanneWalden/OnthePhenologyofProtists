@@ -87,22 +87,3 @@ g
 ```
 
 ![](AlphaBoxplotGrouped_files/figure-markdown_github/CercozoaAlphaBoxPlot-1.png)
-
-``` r
-#write.csv(df_melted_sort, file = "AlphaDiv_Values.csv")
-
-
-
-#ggsave("AlphaDivGroup_300_336x252.jpeg", plot = g, 
-#       device = "jpeg", dpi = 300, width = 336, height = 252, 
-#       units = "mm")
-#ggsave("AlphaDivGroup_600_336x252.pdf", plot = g, 
-#       device = "pdf", dpi = 600, width = 336, height = 252, 
-#       units = "mm")
-#ggsave("AlphaDivGroup_600_336x252.tif", plot = g, 
-#       device = "tiff", dpi = 600, width = 336, height = 252, 
-#       units = "mm")
-#ggsave("AlphaDivGroup_600_336x252.png", plot = g, 
-#      device = "png", dpi = 600, width = 336, height = 252, 
-#      units = "mm")
-```

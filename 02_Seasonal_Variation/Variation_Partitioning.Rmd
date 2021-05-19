@@ -6,10 +6,10 @@ output: github_document
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
-In the following section we want to calculate the proportion of variation in species composition explained by each variable.
+In the following section we want to calculate the proportion of variation in species composition explained by each variable.Variation partitioning is a method of choice for the interpretation of beta diversity using tables of environmental and spatial variables. The technique of variation partitioning is used when two or more complementary sets of hypotheses can be invoked to explain the variation of an ecological response variable.
+A detailed description of variation  partitioning can be found [here](https://academic.oup.com/jpe/article/1/1/3/1130269).
 
 ##Load data
-
 
 ```{r Load Data, warning=FALSE, message=FALSE}
 rm(list = ls()) 
@@ -90,9 +90,9 @@ Unfortunately it is not so easy to modify the plot afterwards. Consequently, we 
 #create dummy dataframe
 df.venn.all <- data.frame(x = c(3, 1, 2),y = c(1, 1,2.8),labels = c('Microhabitat\n0.32', 'Season\n0.01',"Tree species\n0.03"))
 #Ground 
-df.venn.Ground<- data.frame(x = c(3, 1, 2),y = c(1, 1,2.8),labels = c('Microhabitat\n0.31', 'Season\n0.05',"Tree species\n0.02"))
+df.venn.Ground<- data.frame(x = c(3, 1, 2),y = c(1, 1,2.8),labels = c('Microhabitat\n0.31 **', 'Season\n0.05 **',"Tree species\n0.02 **"))
 #Canopy
-df.venn.Canopy<- data.frame(x = c(3, 1, 2),y = c(1, 1,2.8),labels = c('Microhabitat\n0.18', 'Season\n0.02',"Tree species\n0.05"))
+df.venn.Canopy<- data.frame(x = c(3, 1, 2),y = c(1, 1,2.8),labels = c('Microhabitat\n0.18 **', 'Season\n0.02 **',"Tree species\n0.05 **"))
 
 #Plot
 #All
@@ -115,7 +115,8 @@ A <- ggplot(df.venn.Ground, aes(x0 = x, y0 = y, r = 1.5, fill = labels)) +
                   coord_fixed()+
                   annotate("text", x = df.venn.Ground$x , y = df.venn.Ground$y,label=df.venn.Ground$labels ,size = 6) +
                   scale_fill_manual(values = c("#82662a","#bea773","#daba73")) +
-                  theme_void()
+                  theme_void()+
+                  annotate("text", x = 3.5 , y =-0.8,label="Residuals: 0.65" ,size = 4.5) #+
                   #annotate("text", x = 2 , y =1,label="A and B" ,size = 4) +
                   #annotate("text", x = 1.35 , y =2,label="B and C" ,size = 4) +
                   #annotate("text", x = 2.7 , y =2,label="A and C" ,size = 4) +
@@ -130,7 +131,8 @@ B <- ggplot(df.venn.Canopy, aes(x0 = x, y0 = y, r = 1.5, fill = labels)) +
                   coord_fixed()+
                   annotate("text", x = df.venn.Canopy$x , y = df.venn.Canopy$y,label=df.venn.Canopy$labels ,size = 6) +
                   scale_fill_manual(values = c("#42614a","#61a072","#8fd7a2")) +
-                  theme_void()
+                  theme_void()+
+                  annotate("text", x = 3.5 , y =-0.8,label="Residuals: 0.76" ,size = 4.5)
                   #annotate("text", x = 2 , y =1,label="A and B" ,size = 4) +
                   #annotate("text", x = 1.35 , y =2,label="B and C" ,size = 4) +
                   #annotate("text", x = 2.7 , y =2,label="A and C" ,size = 4) +
@@ -166,100 +168,177 @@ combi
 #       units = "mm")
 ```
 
-##Variation Partitioning Analysis - calculation of adjusted R2 values
-
-The interpretation the results should be based on adjusted R2, although raw R2 is also reported (for CCA, adjusted R2 is calculated by permutation method of [Peres-Neto et al. 2006](https://esajournals.onlinelibrary.wiley.com/doi/full/10.1890/0012-9658%282006%2987%5B2614%3AVPOSDM%5D2.0.CO%3B2?casa_token=tRcDjcXcbNwAAAAA%3AugcpGMzywSAYRFWifRSZJ-0fLtStFiHFuqDP1LnvoSLTdkJS_EtBhbnMCIjd0fl7nmpkonuTVIraoDafeQ) and may slightly vary between re-analyses of the same data; the argument permutations specifies the number of permutations used to calculate adjusted R2 in CCA).
+##Variation Partitioning Analysis - Forward Selection
+To identify the explanatory variables that significantly explained variation in protistan communities, forward selection was performed using the `ordistep` function within the *vegan* package (1000 Monte Carlo permutations, alpha < 0.05). .
 
 
 ```{r Variation Partitioning, warning=FALSE, message=FALSE, results="hide"}
 
-rda.all<-rda(OTUCer.hel~Season+Microhabitat+TreeSpecies, data=SampleMetadata)
+#Statistics: forward selection
+
+#Ground
+rda.all<-rda(OTUCer.hel.Ground~Season+Microhabitat+TreeSpecies, data=SampleMetadata.Ground)
+rda.all
+
+
+# Forward selection using vegan???s ordistep().
+# *******************************************
+# ->Hint: This function allows the use of factors. Options are also available for stepwise and backward selection of the explanatory variables.
+step.forward <- ordistep(rda(OTUCer.hel.Ground ~ 1, data=SampleMetadata.Ground), scope=formula (rda.all), direction="forward", pstep=1000)
+
+#Start: OTUCer.hel.Ground ~ 1 
+
+#               Df     AIC       F Pr(>F)   
+#+ Microhabitat  1 -76.004 26.1939  0.005 **
+#+ Season        1 -56.952  3.4393  0.010 **
+#+ TreeSpecies   2 -54.181  1.3060  0.160   
+#---
+#Signif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1
+
+#Step: OTUCer.hel.Ground ~ Microhabitat 
+
+#              Df     AIC      F Pr(>F)   
+#+ Season       1 -79.191 5.1488  0.005 **
+#+ TreeSpecies  2 -75.755 1.8096  0.005 **
+#---
+#Signif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1
+
+#Step: OTUCer.hel.Ground ~ Microhabitat + Season 
+
+#              Df     AIC      F Pr(>F)   
+#+ TreeSpecies  2 -79.288 1.9484  0.005 **
+#---
+#Signif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1
+
+#Step: OTUCer.hel.Ground ~ Microhabitat + Season + TreeSpecies 
+
+
+#Canopy
+rda.all<-rda(OTUCer.hel.Canopy~Season+Microhabitat+TreeSpecies, data=SampleMetadata.Canopy)
+rda.all
+
+
+# Forward selection using vegan???s ordistep().
+# *******************************************
+# ->Hint: This function allows the use of factors. Options are also available for stepwise and backward selection of the explanatory variables.
+step.forward <- ordistep(rda(OTUCer.hel.Canopy ~ 1, data=SampleMetadata.Canopy), scope=formula (rda.all), direction="forward", pstep=1000)
+
+#Start: OTUCer.hel.Canopy ~ 1 
+
+#               Df     AIC      F Pr(>F)   
+#+ Microhabitat  6 -286.40 9.0477  0.005 **
+#+ TreeSpecies   2 -256.72 6.2777  0.005 **
+#+ Season        1 -251.65 5.3221  0.005 **
+#---
+#Signif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1
+
+#Step: OTUCer.hel.Canopy ~ Microhabitat 
+
+#              Df     AIC      F Pr(>F)   
+#+ TreeSpecies  2 -298.02 7.7636  0.005 **
+#+ Season       1 -291.16 6.6192  0.005 **
+#---
+#Signif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1
+
+#Step: OTUCer.hel.Canopy ~ Microhabitat + TreeSpecies 
+
+#         Df     AIC      F Pr(>F)   
+#+ Season  1 -303.21 6.9828  0.005 **
+#---
+#Signif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1
+
+#Step: OTUCer.hel.Canopy ~ Microhabitat + TreeSpecies + Season 
+
+
+```
+
+
+```{r Statistics, warning=FALSE, message=FALSE, results="hide", echo=FALSE}
+#The interpretation the results should be based on adjusted R2, although raw R2 is also reported (for CCA, adjusted R2 is calculated by permutation method of [Peres-Neto et al. 2006](https://esajournals.onlinelibrary.wiley.com/doi/full/10.1890/0012-9658%282006%2987%5B2614%3AVPOSDM%5D2.0.CO%3B2?casa_token=tRcDjcXcbNwAAAAA%3AugcpGMzywSAYRFWifRSZJ-0fLtStFiHFuqDP1LnvoSLTdkJS_EtBhbnMCIjd0fl7nmpkonuTVIraoDafeQ) and may slightly vary between re-analyses of the same data; the argument permutations specifies the number of permutations used to calculate adjusted R2 in CCA)
+
+#Ground
+rda.all<-rda(OTUCer.hel.Ground~Season+Microhabitat+TreeSpecies, data=SampleMetadata.Ground)
 rda.all
 R2all <- RsquareAdj(rda.all)$adj.r.squared
-R2all #0.3552025
+R2all #0.3546248
 
 
-rda.MS<-rda(OTUCer.hel~Microhabitat+Season, data=SampleMetadata)
+rda.MS<-rda(OTUCer.hel.Ground~Microhabitat+Season, data=SampleMetadata.Ground)
 rda.MS 
 R2MS <- RsquareAdj(rda.MS)$adj.r.squared
-R2MS   #  0.3267351
+R2MS   #  0.3342232
 
 
-rda.TS<-rda(OTUCer.hel~TreeSpecies+Season, data=SampleMetadata)
+rda.TS<-rda(OTUCer.hel.Ground~TreeSpecies+Season, data=SampleMetadata.Ground)
 rda.TS
 R2TS <- RsquareAdj(rda.TS)$adj.r.squared
 R2TS   #  0.03582976
 
 
-rda.MT<-rda(OTUCer.hel~Microhabitat+TreeSpecies, data=SampleMetadata)
+rda.MT<-rda(OTUCer.hel.Ground~Microhabitat+TreeSpecies, data=SampleMetadata.Ground)
 rda.MT
 R2MT <- RsquareAdj(rda.MT)$adj.r.squared
-R2MT   #  0.341761
+R2MT   # 0.341761
 
 #Getting values for individual fractions, S(Season), M (Microhabitat), T(Tree species), substract: 
 R2S<-(R2MS+R2TS)-R2all
-R2S   #   0.007362318
+R2S   #   0.01542819
 R2M<-R2MS-R2S
-R2M   #  0.3193728
+R2M   # 0.318795
 R2T<-R2TS-R2S
-R2T   # 0.02846744
+R2T   # 0.02040156
 
 # conditional effect of Microhabitat is highest  
 
+#Now, when we know both simple and conditional effect of each variables, we may want to know whether these variances are significant, and hence worth of interpreting. Results from varpart contain the column testable with logical values indicating whether given fraction is testable or not. To test each of them, we will need the models defined above, and the function anova, which (if applied on single object resulting from rda or cca method, returns Monte Carlo permutation test of the predictor effect). For this, we need to first define also partial ordination models with one variable as exlanatory and the other as covariable.
 
-```
 
-Now, when we know both simple and conditional effect of each variables, we may want to know whether these variances are significant, and hence worth of interpreting. Results from varpart contain the column testable with logical values indicating whether given fraction is testable or not. To test each of them, we will need the models defined above, and the function anova, which (if applied on single object resulting from rda or cca method, returns Monte Carlo permutation test of the predictor effect). For this, we need to first define also partial ordination models with one variable as exlanatory and the other as covariable.
+#Ground
+anova(rda.all <- rda (OTUCer.hel.Ground ~ Season+Microhabitat+TreeSpecies, data = SampleMetadata.Ground))
+#Model: rda(formula = OTUCer.hel.Ground ~ Season + Microhabitat + TreeSpecies, data = SampleMetadata.Ground)
+#         Df Variance     F Pr(>F)    
+#Model     4  0.16165 9.517  0.001 ***
+#Residual 58  0.24629     
 
-```{r Statistics, warning=FALSE, message=FALSE, results="hide"}
+#seperated
+anova(rda.MS <- rda (OTUCer.hel.Ground ~ Microhabitat + Condition (Season), data = SampleMetadata.Ground))
+#Model: rda(formula = OTUCer.hel.Ground ~ Microhabitat + Condition(Season), data = SampleMetadata.Ground)
+#         Df Variance      F Pr(>F)    
+#Model     1  0.12333 28.154  0.001 ***
+#Residual 60  0.26283  
 
-anova(rda.MS <- rda (OTUCer.hel ~ Microhabitat + Condition (Season), data = SampleMetadata))
-#Model: rda(formula = OTUCer.hel ~ Microhabitat + Condition(Season), data = SampleMetadata)
-#          Df Variance      F Pr(>F)    
-#Model      8  0.13447 17.819  0.001 ***
-#Residual 280  0.26413   
-
-#anova(model <- capscale(OTUCer.hel~Season + Condition(Microhabitat), data = SampleMetadata))
-#zeigt das selbe ergebnis wie mit der rda funktion
-           
-anova(rda.SM <- rda (OTUCer.hel ~ Season + Condition (Microhabitat), data = SampleMetadata))      
+anova(rda.SM <- rda (OTUCer.hel.Ground ~ Season + Condition (TreeSpecies), data = SampleMetadata.Ground))      
 #Model: rda(formula = OTUCer.hel ~ Season + Condition(Microhabitat), data = SampleMetadata)
-#          Df Variance      F Pr(>F)    
-#Model      1 0.006217 6.5906  0.001 ***
-#Residual 280 0.264131 
+# Df Variance      F Pr(>F)    
+#Model     1 0.022555 5.1488  0.001 ***
+#Residual 60 0.262832  
 
-
-anova(rda.ST <- rda (OTUCer.hel ~ Season + Condition (TreeSpecies), data = SampleMetadata))
+anova(rda.ST <- rda (OTUCer.hel.Ground ~ Season + Condition (TreeSpecies), data = SampleMetadata.Ground))
 #Model: rda(formula = OTUCer.hel ~ Season + Condition(TreeSpecies), data = SampleMetadata)
-#          Df Variance      F Pr(>F)    
-#Model      1  0.00629 4.6534  0.001 ***
-#Residual 286  0.38636                  
+#              Df Variance    F Pr(>F)   
+#Model     1  0.02177 3.48  0.004 **
+#Residual 59  0.36914              
 
 
-anova(rda.TS <- rda (OTUCer.hel ~ TreeSpecies + Condition (Season), data = SampleMetadata))
+anova(rda.TS <- rda (OTUCer.hel.Ground ~ TreeSpecies + Condition (Season), data = SampleMetadata.Ground))
 #Model: rda(formula = OTUCer.hel ~ TreeSpecies + Condition(Season), data = SampleMetadata)
-#          Df Variance      F Pr(>F)    
-#Model      2  0.01224 4.5298  0.001 ***
-#Residual 286  0.38636                  
-
+#Df Variance      F Pr(>F)
+#Model     2  0.01702 1.3601  0.162
+#Residual 59  0.36914 
 
 anova(rda.TM <- rda (OTUCer.hel ~ TreeSpecies + Condition (Microhabitat), data = SampleMetadata))
 #Model: rda(formula = OTUCer.hel ~ TreeSpecies + Condition(Microhabitat), data = SampleMetadata)
 #          Df Variance      F Pr(>F)    
 #Model      2 0.013034 7.0663  0.001 ***
-#Residual 279 0.257314  
+#Residual 279 0.257314      
 
 anova(rda.MT <- rda (OTUCer.hel ~ Microhabitat + Condition (TreeSpecies), data = SampleMetadata))
 #Model: rda(formula = OTUCer.hel ~ Microhabitat + Condition(TreeSpecies), data = SampleMetadata)
-#          Df Variance      F Pr(>F)    
+#            Df Variance      F Pr(>F)    
 #Model      8  0.13534 18.343  0.001 ***
-#Residual 279  0.25731  
+#Residual 279  0.25731                  
+
        
-anova(rda.all)
-#Model: rda(formula = OTUCer.hel ~ Season + Microhabitat + TreeSpecies, data = SampleMetadata)
-#          Df Variance      F Pr(>F)    
-#Model     11  0.15377 15.473  0.001 ***
-#Residual 278  0.25116       
 
 ```
 

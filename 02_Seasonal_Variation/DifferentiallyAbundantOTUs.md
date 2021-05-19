@@ -136,18 +136,3 @@ P
 ```
 
 ![](DifferentiallyAbundantOTUs_files/figure-markdown_github/CercozoaDiffAbb-1.png)
-
-``` r
-#ggsave("Differential_Abbundance_OTU_300_336x168.jpeg", plot = P, 
-#       device = "jpeg", dpi = 300, width = 336, height =168, 
-#       units = "mm")
-#ggsave("Differential_Abbundance_OTU_600_336x168.pdf", plot = P,  
-#       device = "pdf", dpi = 600, width = 336, height = 168, 
-#       units = "mm")
-#ggsave("Differential_Abbundance_OTU_600_336x168.tif", plot = P,  
-#       device = "tiff", dpi = 600, width = 336, height = 168, 
-#       units = "mm")
-#ggsave("Differential_Abbundance_OTU_600_336x168.png", plot = P,  
-#       device = "png", dpi = 600, width = 336, height = 168, 
-#       units = "mm")
-```

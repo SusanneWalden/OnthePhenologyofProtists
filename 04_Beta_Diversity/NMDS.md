@@ -144,18 +144,3 @@ g
 ```
 
 ![](NMDS_files/figure-markdown_github/Plot%20NMDS-1.png)
-
-``` r
-#ggsave("NMDS_300_336x252.jpeg", plot = g, 
-#        device = "jpeg", dpi = 300, width = 336, height = 252, 
-#        units = "mm")
-#ggsave("NMDS_600_336x252.pdf", plot = g, 
-#       device = "pdf", dpi = 600, width = 336, height = 252, 
-#       units = "mm")
-#ggsave("NMDS_600_336x252.tif", plot = g, 
-#       device = "tiff", dpi = 600, width = 336, height = 252, 
-#       units = "mm")
-#ggsave("NMDS_600_336x252.png", plot = g, 
-#       device = "png", dpi = 600, width = 336, height = 252, 
-#       units = "mm")
-```

@@ -137,7 +137,7 @@ geom_scatterpie(data = data_b,
 P
 ```
 
-```{r, fig.width=16, fig.height=8, dpi=600}
+```{r, fig.width=16, fig.height=8, dpi=600, echo=FALSE}
 
 #ggsave("Differential_Abbundance_OTU_300_336x168.jpeg", plot = P, 
 #       device = "jpeg", dpi = 300, width = 336, height =168, 

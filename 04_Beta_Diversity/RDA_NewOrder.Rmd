@@ -208,7 +208,7 @@ S18
 After you repeated the above mentioned code for every sampling period you can combine all plots 
 with the *ggarrange* function from the ggpubr package.
 
-```{r combine Plots, fig.width=16, fig.height=9, dpi=600, warning=FALSE, message=FALSE}
+```{r combine Plots, fig.width=16, fig.height=9, dpi=600, warning=FALSE, message=FALSE, echo=FALSE}
 
 # combine all plots
 

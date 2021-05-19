@@ -145,18 +145,3 @@ ab
 ```
 
 ![](SharedOTUs_files/figure-markdown_github/Add%20Barchart-1.png)
-
-``` r
-#ggsave("Upset_300_336x168.jpeg", plot = ab, 
-#       device = "jpeg", dpi = 300, width = 336, height = 168, 
-#       units = "mm")
-#ggsave("Upset_600_336x168.pdf", plot = ab, 
-#       device = "pdf", dpi = 600, width = 336, height = 168, 
-#       units = "mm")
-#ggsave("Upset_600_336x168.tif", plot = ab, 
-#       device = "tiff", dpi = 600, width = 336, height = 168, 
-#       units = "mm")
-#ggsave("Upset_600_336x168.png", plot = ab, 
-#       device = "png", dpi = 600, width = 336, height = 168, 
-#       units = "mm")
-```

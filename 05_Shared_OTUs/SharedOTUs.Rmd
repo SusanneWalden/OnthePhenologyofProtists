@@ -147,7 +147,7 @@ ab = ggdraw() +
 ab
 ```
 
-```{r, fig.width=16, fig.height=9, dpi=600}
+```{r, fig.width=16, fig.height=9, dpi=600, echo=FALSE}
 #ggsave("Upset_300_336x168.jpeg", plot = ab, 
 #       device = "jpeg", dpi = 300, width = 336, height = 168, 
 #       units = "mm")

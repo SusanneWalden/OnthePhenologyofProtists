@@ -92,7 +92,7 @@ g = ggplot(df_melted_sort, aes(x = Season, y = value, fill = Season)) +
 g
 ```
 
-```{r, fig.width=16, fig.height=9, dpi=600}
+```{r, fig.width=16, fig.height=9, dpi=600, echo=FALSE}
 
 #write.csv(df_melted_sort, file = "AlphaDiv_Values.csv")
 
