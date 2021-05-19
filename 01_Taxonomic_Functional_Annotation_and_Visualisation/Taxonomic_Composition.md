@@ -132,28 +132,3 @@ Combine all plots
 -----------------
 
 After you repeated the above mentioned code for every sampling period you can combine all plots with the *ggarrange* function from the ggpubr package.
-
-``` r
-#combi = ggarrange( H17, S18, A18, S19,
-#                   labels = c("A", "B","C","D"), 
-#                   ncol = 2, nrow = 2, font.label = list(size = 16, color = "black"), 
-#                   common.legend = T, legend = "right", 
-#                   align = "v")+
-#        theme(plot.margin = margin(1,1,1,1, "cm")) 
-#combi
-
-
-#save
-#ggsave("OrderCombined_300_336x252.jpeg", plot = combi, 
-#       device = "jpeg", dpi = 300, width = 336, height = 252, 
-#       units = "mm")
-#ggsave("OrderCombined_600_336x252.pdf", plot = combi, 
-#       device = "pdf", dpi = 600, width = 336, height = 252, 
-#       units = "mm")
-#ggsave("OrderCombined_600_336x252.tif", plot = combi, 
-#       device = "tiff", dpi = 600, width = 336, height = 252, 
-#       units = "mm")
-#ggsave("OrderCombined_600_336x252.png", plot = combi, 
-#       device = "png", dpi = 600, width = 336, height = 252, 
-#      units = "mm")
-```
