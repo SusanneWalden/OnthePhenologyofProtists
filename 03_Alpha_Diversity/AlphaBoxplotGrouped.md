@@ -1,7 +1,7 @@
 Plot alpha diversity indices grouped by microhabitat in a boxplot
 ================
 
-To compare different alpha diversity indices, we calculated species richness, Simpson index, Shannon index as well as eveness for each microhabitat per sampling period
+To compare different alpha diversity indices, we calculated species richness, Simpson index, Shannon index as well as eveness for each microhabitat per sampling season (spring vs. autumn).
 
 Load data
 ---------
@@ -27,13 +27,13 @@ OTU_Table = OTU_Table[,18:ncol(OTU_Table)]
 Calculate Alpha Diversity Indices
 ---------------------------------
 
-To calculate the diversity indices, simply load the table and calculate the species richness per microhabitat and sampling period, then convert it into a dataframe and add all other diversity `indices` - in this case: The Simpson index, Shannon Index and eveness. Finally add the metadata and melt the dataframe.
+To calculate the diversity indices, simply load the table and calculate the species richness per microhabitat and sampling period, then convert it into a dataframe and add all other diversity `indices` of interest - in this case: The Simpson index, Shannon Index and eveness. Finally add the metadata and melt the dataframe.
 
 ``` r
 richness = specnumber(OTU_Table)
 df = as.data.frame(richness)
 
-df$simpson = diversity(OTU_Table, index = "simpson")
+#df$simpson = diversity(OTU_Table, index = "simpson")
 df$shannon = diversity(OTU_Table, index = "shannon")
 df$eveness = df$shannon/log(df$richness)
 
@@ -60,12 +60,12 @@ Now we want to visualise the alpha diversity indices in a combined boxplot and c
 ``` r
 df_melted_sort <- df_melted
 df_melted_sort$Microhabitat <- factor(df_melted_sort$Microhabitat,      # Reordering group factor levels
-                         levels = c("Fresh Leaves","Deadwood","Arboreal Soil","Bark","Hypnum","Lichen", 
-                                     "Orthotrichum","Leaf Litter","Soil"))
+                         levels = c("Soil","Leaf Litter","Arboreal Soil","Hypnum","Orthotrichum", 
+                                     "Bark","Lichen","Deadwood","Fresh Leaves"))
 
 g = ggplot(df_melted_sort, aes(x = Season, y = value, fill = Season)) + 
     stat_boxplot(geom = "errorbar", width = 0.1, show.legend = F) +
-    geom_boxplot(show.legend = F) + 
+    geom_boxplot(show.legend = T) + 
     scale_fill_manual(values = alpha(c("#014636","#660033"), 0.8), 
                     limits = c("Spring","Autumn")) + 
     scale_x_discrete(limits = c("Spring","Autumn")) + 
@@ -74,8 +74,11 @@ g = ggplot(df_melted_sort, aes(x = Season, y = value, fill = Season)) +
     theme(axis.text=element_text(size=14, face = "bold"), 
         axis.title=element_text(size=16, face = "bold"), 
         plot.subtitle = element_text(size = 14, hjust = 0.5),
-        strip.text = element_text(size = 13, face = "bold"),
-        axis.text.x = element_text(angle=45, hjust = 1)) +
+        strip.text = element_text(size = 12, face = "bold"),
+        axis.text.x = element_text(angle=45, hjust = 1),
+        legend.text = element_text(size = 16), 
+        legend.title = element_text(size=16),
+        legend.position = "right") +
     facet_grid(variable ~ Microhabitat, scales = "free", switch = "y")+
     theme(plot.margin = margin(1,1,1,1, "cm")) +
     stat_compare_means(comparisons = list(c("Spring","Autumn")), label = "p.signif", 
