@@ -265,7 +265,7 @@ Autumn
 ```{r, fig.width=8, fig.height=6, dpi=600}
 
 combi = ggarrange(Spring,Autumn,
- #                 labels = c("A", "B"), 
+  #               labels = c("A", "B"), 
                  ncol = 2, nrow = 1, font.label = list(size = 16, color = "black")+
         theme(plot.margin = margin(1,1,1,1, "cm"))) 
 combi

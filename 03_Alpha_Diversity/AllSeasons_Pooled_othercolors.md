@@ -102,7 +102,7 @@ b = ggplot(df2, aes(x = Microhabitat, y = shannon, fill = Microhabitat)) +
   stat_boxplot(geom = "errorbar", width = 0.1, show.legend = F) +
   geom_boxplot(fill="#014636",show.legend = F, alpha=0.8) +
   coord_cartesian(ylim = c(1, 6))+
-  geom_text(data = TukeyLetters_shannon, aes(label = groups), y = 5.15,size=3.5)+
+  geom_text(data = TukeyLetters_shannon, aes(label = groups), y = 5.3,size=3.5)+
   scale_x_discrete(limits = c("Soil","Leaf Litter","Orthotrichum","Hypnum","Bark","Arboreal Soil","Lichen","Deadwood","Fresh Leaves")) + 
   theme_minimal() + 
   labs(y = "shannon")+ 
@@ -188,7 +188,7 @@ d = ggplot(df1, aes(x = Microhabitat, y = richness, fill = Microhabitat)) +
   stat_boxplot(geom = "errorbar", width = 0.1, show.legend = F) +
   geom_boxplot(fill="#660033",show.legend = F, alpha=0.8) +
   coord_cartesian(ylim = c(200, 600))+
-  geom_text(data = TukeyLetters_richness, aes(label = groups), y = 595,size=3.5)+
+  geom_text(data = TukeyLetters_richness, aes(label = groups), y = 601,size=3.5)+
   scale_x_discrete(limits = c("Soil","Leaf Litter","Arboreal Soil","Hypnum","Orthotrichum","Bark","Lichen","Deadwood","Fresh Leaves")) + 
   theme_minimal() + 
   labs(y = "richness")+ 
@@ -207,7 +207,7 @@ e = ggplot(df2, aes(x = Microhabitat, y = shannon, fill = Microhabitat)) +
   stat_boxplot(geom = "errorbar", width = 0.1, show.legend = F) +
   geom_boxplot(fill="#660033",show.legend = F, alpha=0.8) +
   coord_cartesian(ylim = c(1, 6))+
-  geom_text(data = TukeyLetters_shannon, aes(label = groups), y = 5.1,size=3.5)+
+  geom_text(data = TukeyLetters_shannon, aes(label = groups), y = 5.3,size=3.5)+
   scale_x_discrete(limits = c("Soil","Leaf Litter","Arboreal Soil","Hypnum","Orthotrichum","Bark","Lichen","Deadwood","Fresh Leaves")) + 
   theme_minimal() + 
   labs(y = "shannon")+ 
@@ -251,16 +251,12 @@ Autumn
 <img src="AllSeasons_Pooled_othercolors_files/figure-markdown_github/CercozoaAlphaBoxPlotAutumn-1.png" width="50%" />
 
 ``` r
-combi = ggarrange(Spring,Autumn,
-                  labels = c("A", "B"), 
-                 ncol = 2, nrow = 1, font.label = list(size = 16, color = "black")+
-        theme(plot.margin = margin(1,1,1,1, "cm"))) 
-combi
-```
+#combi = ggarrange(Spring,Autumn,
+#                 labels = c("A", "B"), 
+#                 ncol = 2, nrow = 1, font.label = list(size = 16, color = "black")+
+#        theme(plot.margin = margin(1,1,1,1, "cm"))) 
+#combi
 
-![](AllSeasons_Pooled_othercolors_files/figure-markdown_github/unnamed-chunk-1-1.png)
-
-``` r
 #save plot
 #ggsave("BoxplotSeason_difCol_300_336x252.jpeg", plot = combi, 
 #       device = "jpeg", dpi = 300, width = 336, height = 252, 

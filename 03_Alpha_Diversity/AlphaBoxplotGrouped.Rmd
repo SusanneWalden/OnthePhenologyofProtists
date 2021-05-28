@@ -88,7 +88,7 @@ g = ggplot(df_melted_sort, aes(x = Season, y = value, fill = Season)) +
     facet_grid(variable ~ Microhabitat, scales = "free", switch = "y")+
     theme(plot.margin = margin(1,1,1,1, "cm")) +
     stat_compare_means(comparisons = list(c("Spring","Autumn")), label = "p.signif", 
-                     size = 3.5, method = "wilcox.test", exact=FALSE, vjust = 0.1, 
+                     size = 2.9, method = "t.test", exact=FALSE, vjust = 0.1, 
                      symnum.args = list(cutpoints = c(0, 0.001, 0.01, 0.05, 1), 
                                        symbols = c("***", "**", "*","NS")))
 
@@ -97,7 +97,7 @@ g
 
 ```{r, fig.width=16, fig.height=9, dpi=600, echo=FALSE}
 
-#write.csv(df_melted_sort, file = "AlphaDiv_Values.csv")
+#write.csv(df_melted_sort, file = "AlphaDiv_Values_test.csv")
 
 
 
@@ -123,13 +123,13 @@ g
 #         theme(plot.margin = margin(1,1,1,1, "cm"))) 
 #combi2
 
-#ggsave("BoxplotSeason_Combined_300_336x400x.jpeg", plot = combi2, 
+#ggsave("BoxplotSeason_Combined_300_336x400_t.test.jpeg", plot = combi2, 
 #       device = "jpeg", dpi = 300, width = 336, height = 400, 
 #       units = "mm")
 #ggsave("BoxplotSeason_Combined_600_336x400.pdf", plot = combi2, 
 #       device = "pdf", dpi = 600, width = 336, height = 400, 
 #       units = "mm")
-#ggsave("BoxplotSeason_Combined_600_336x400.tif", plot = combi2, 
+#ggsave("BoxplotSeason_Combined_600_336x400_t.test.tif", plot = combi2, 
 #       device = "tiff", dpi = 600, width = 336, height = 400, 
 #       units = "mm")
 #ggsave("BoxplotSeason_Combined_600_336x400.png", plot = combi2, 

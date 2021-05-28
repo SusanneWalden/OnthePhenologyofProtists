@@ -82,7 +82,7 @@ g = ggplot(df_melted_sort, aes(x = Season, y = value, fill = Season)) +
     facet_grid(variable ~ Microhabitat, scales = "free", switch = "y")+
     theme(plot.margin = margin(1,1,1,1, "cm")) +
     stat_compare_means(comparisons = list(c("Spring","Autumn")), label = "p.signif", 
-                     size = 3.5, method = "wilcox.test", exact=FALSE, vjust = 0.1, 
+                     size = 2.9, method = "t.test", exact=FALSE, vjust = 0.1, 
                      symnum.args = list(cutpoints = c(0, 0.001, 0.01, 0.05, 1), 
                                        symbols = c("***", "**", "*","NS")))
 
