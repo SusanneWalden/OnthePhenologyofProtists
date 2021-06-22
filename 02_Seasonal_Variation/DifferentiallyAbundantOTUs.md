@@ -1,7 +1,7 @@
 Differentially Abundant OTUs
 ================
 
-With following method we caclulated OTUs that appeared to be differentially abundant in one of the two sampling season. Therefore, the DESeq2 package was used.
+With following method we calculated OTUs that appeared to be differentially abundant in one of the two sampling seasons. Therefore, the DESeq2 package was used.
 
 Load data
 ---------
@@ -31,7 +31,7 @@ SampleMetadata = as.matrix(OTU_Table[,1:17])
 Calculate Season Correlated OTUs by Differential Abundance Analysis
 -------------------------------------------------------------------
 
-In the following steps we cacluated the differential abundant OTUs in the investigated spring and autumn samples.
+In the following steps we calculated the significantly differential abundant OTUs in the investigated spring and autumn samples.
 
 ``` r
 #first we convert our OTU table into a DESeq2 object
@@ -45,7 +45,7 @@ ddsSeason = DESeq(ddsSeason,
                    sfType="poscounts",
                    quiet = T)
 
-#Convert the analysis into a "readable"" table
+#Convert the analysis into a "readable" table
 resSeason = results(ddsSeason, pAdjustMethod = "BH")
 
 #Shrink the LFC (Log Fold Change)
