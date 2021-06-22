@@ -125,7 +125,8 @@ A <- ggplot(df.venn.Ground, aes(x0 = x, y0 = y, r = 1.5, fill = labels)) +
                   geom_circle(alpha = .6, size = 1, colour = "#3f3a3a",show.legend = FALSE) +
                   coord_fixed()+
                   annotate("text", x = df.venn.Ground$x , y = df.venn.Ground$y,label=df.venn.Ground$labels ,size = 6) +
-                  scale_fill_manual(values = c("#82662a","#bea773","#daba73")) +
+#                  scale_fill_manual(values = c("#82662a","#bea773","#daba73")) +#old colors: brownish
+                  scale_fill_manual(values = c("#52182b","#99597f","#822242")) +
                   theme_void()+
                   annotate("text", x = 3.5 , y =-0.8,label="Residuals: 0.65" ,size = 4.5) #+
                   #annotate("text", x = 2 , y =1,label="A and B" ,size = 4) +
